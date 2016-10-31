@@ -54,8 +54,8 @@ copyright: © 2016 SchoonheidEersel - All rights reserved
 # Build settings
 markdown: kramdown
 
-exclude: ['img', 'js', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.svg', '**.ico']
-keep_files: ['img', 'perf']
+#exclude: ['img', 'js', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.svg', '**.ico']
+#keep_files: ['img', 'perf']
 
 # Theme Settings
 analytics: GTM-M9DK3T
