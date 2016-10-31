@@ -314,7 +314,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     remote: '<%= yeoman.git %>',
-                    branch: 'master',
+                    branch: 'gh-pages',
                     commit: true,
                     push: true
                 }
