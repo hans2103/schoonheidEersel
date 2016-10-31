@@ -42,6 +42,7 @@ map:
     zoom: 17
     address: Krekelbos 14, 5521 SV Eersel, Nederland
     address_details: svg/min/logo-yvonne.svg
+    api_key: AIzaSyCLkMvjovGoFXx7hAY_Ez1w5OGO00IIzj8
 
 # Social settings
 facebook: https://www.facebook.com/schoonheideersel

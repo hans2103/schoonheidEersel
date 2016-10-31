@@ -22,7 +22,7 @@ module.exports = function (grunt) {
             scripts: [
                 '<%= yeoman.app %>/js/bootstrap.js',
                 '<%= yeoman.app %>/js/owl.carousel.js',
-                '<%= yeoman.app %>/js/gmap3.js',
+                'bower_components/gmap3/dist/gmap3.js',
                 '<%= yeoman.app %>/js/jquery.magnific-popup.js',
                 '<%= yeoman.app %>/js/svg-injector.js',
                 '<%= yeoman.app %>/js/custom.js',
