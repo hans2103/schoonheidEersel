@@ -1,0 +1,30 @@
+- icon: icon-user-md
+  title: Gezichtsbehandeling, 90 minuten
+  price: '29,95'
+  description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème en een kopje koffie of thee.
+
+- icon: icon-diamond
+  title: Gezichtsbehandeling, 60 minuten
+  price: '24,95'
+  description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.
+
+- icon: icon-flask
+  title: 2B bio-peeling, 90 minuten
+  price: '64,95'
+  description: Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker, dag of nachtcrème en een kopje koffie of thee.
+
+- icon: icon-globe
+  title: 2B bio-peeling kuurbehandeling, 3 behandelingen binnen 10-14 dagen
+  price: '175,-'
+  description: Huidverbeterende behandeling. door drie behandelingen binnen 10-14 dagen laat je de huid drie keer vernieuwen. Hierdoor behaal je het maximale resultaat!
+
+- icon: icon-ambulance
+  title: Overige behandelingen
+  description:
+    - Epileren wenkbrauwen  &euro; 6,00
+    - Epileren wenkbrauwen (junior 16 jr.)  &euro; 5,00
+
+- icon: icon-bed
+  title: Barbier
+  price: geen idee
+  description: Scheren

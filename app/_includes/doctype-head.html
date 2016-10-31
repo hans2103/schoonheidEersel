@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <title>{{ page.title }} &ndash; {{ site.title }}</title>
+
+    <link rel="shortcut icon" href="/favicon.ico" >
+
+    {% if site.google-verification %}
+    <meta name="google-site-verification" content="{{ site.google_verification }}">
+    {% endif %}
+
+    <script>
+        {% include fontloader.js %}
+        loadFont("optimizedWebFonts", "/css/optimizedWebFonts.woff.css");
+    </script>
+
+    {% if site.environment == 'production' %}
+    <style>{% include critical.css %}</style>
+    <script>
+        {% include loadCSS.js %}
+        loadCSS("/css/styles.css");
+    </script>
+    <noscript>
+        {% endif %}
+
+        <!-- build:css({app,.tmp}) /css/styles.css -->
+        <link href="/css/styles.css" rel="stylesheet" type="text/css">
+        <!-- endbuild -->
+
+        {% if site.environment == 'production' %}
+    </noscript>
+    {% endif %}
+
+</head>

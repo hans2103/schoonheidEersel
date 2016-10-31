@@ -1,0 +1,65 @@
+# Jekyll configuration
+# Use _config.build.yml to override these settings on `grunt build`.
+
+# Note: Grunt handles some Jekyll configuration. If you set something here and
+# it doesn't work, check if it is set in the Gruntfile.
+
+title: 'SchoonheidEersel | Yvonne, Specialiste in Schoonheid'
+url: 'http://localhost:3000'
+author: 'Hans Kuijpers'
+twitter: 'hans2103'
+email: 'hans2103@gmail.com'
+description: 'Yvonne, Specialiste in Schoonheid'
+logo_url: svg/min/logo-yvonne.svg
+
+environment: development
+
+# Hero
+hero:
+    hero_img: header-yvonne-bierens.jpg
+    hero_title: Yvonne, Specialiste in Schoonheid
+    hero_description: Schoonheidsspecialist in Eersel en omstreken
+
+# Contact form
+api_token: af0d1ae3723865d85b1cc30d6fa0421a
+
+# Contact info
+contact:
+    phone: 06 - 5310 5406
+    email: schoonheideersel@gmail.com
+    address: Krekelbos 14<br>5521 SV Eersel - Nederland
+
+# Opening hours
+monday_friday: 09:00 – 22:00
+saturday_sunday: gesloten
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Map
+map:
+    zoom: 17
+    address: Krekelbos 14, 5521 SV Eersel, Nederland
+    address_details: svg/min/logo-yvonne.svg
+
+# Social settings
+facebook: https://www.facebook.com/schoonheideersel
+instagram: https://www.instagram.com/skonheit/
+whatsapp: 06 - 5310 5406
+
+# Footer
+copyright: © 2016 SchoonheidEersel - All rights reserved
+
+# Build settings
+markdown: kramdown
+
+exclude: ['img', 'js', '**.png', '**.jpg', '**.jpeg', '**.gif', '**.svg', '**.ico']
+keep_files: ['img', 'perf']
+
+# Theme Settings
+analytics: GTM-M9DK3T
+google_verification: qi4lZ3bF9i3MYlbrWY9he6xQwpUhHy-5z2tHZZLBH28
+
+# disable this with ''
+excerpt_separator: ''

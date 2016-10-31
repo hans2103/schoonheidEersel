@@ -1,0 +1,14 @@
+{
+  "name": "schoonheidEersel",
+  "version": "0.1.0",
+  "description": "Jekyll website for schoonheidEersel.nl",
+  "author": "Hans Kuijpers <info@hkweb.nl>",
+  "homepage": "https://github.com/hans2103/schoonheidEersel",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "loadcss": "~0.2.4",
+    "OptimizedWebfontLoading": "git://github.com/bdadam/OptimizedWebfontLoading.git",
+    "typesettings": "~3.0.0"
+  }
+}
