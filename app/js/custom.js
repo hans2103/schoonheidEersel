@@ -64,7 +64,7 @@
 
     /* Google map
     ----------------------------------------------*/
-    $(".map").each(function(){
+    $('.map').each(function(){
 
         var data_zoom = 17;
 
@@ -73,7 +73,6 @@
         }
 
         $(this).gmap3({
-            key: $(this).attr("data-key"),
             marker: {
                 values: [{
                     address: $(this).attr("data-address"),
