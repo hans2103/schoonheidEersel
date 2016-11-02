@@ -12,7 +12,7 @@ email: 'hans2103@gmail.com'
 description: 'Yvonne, Specialiste in Schoonheid'
 logo_url: svg/min/logo-yvonne.svg
 
-environment: development
+environment: production
 
 # Hero
 hero:
