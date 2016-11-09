@@ -1,4 +1,17 @@
-- name: Yvonne Bierens
-  image: yvonne-bierens.jpg
-  email: schoonheideersel@gmail.com
-  phone: 06 - 5310 5406
+- name: Gezichtsmassage
+  image: aan-het-werk-gezichtmassage.jpg
+
+- name: JoJoBa Care crème
+  image: jojoba-care-creme.jpg
+
+- name: Behandelkamer
+  image: behandelkamer.jpg
+
+- name: Rust
+  image: sfeerbeeld-bloem.jpg
+
+- name: Aan het werk
+  image: aan-het-werk.jpg
+
+- name: JoJoba Care for men
+  image: jojoba-for-men.jpg
