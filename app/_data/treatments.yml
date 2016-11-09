@@ -1,11 +1,11 @@
 - icon: icon-user-md
   title: Gezichtsbehandeling, 90 minuten
-  price: '29,95'
+  price: '32,50'
   description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème.
 
 - icon: icon-diamond
   title: Gezichtsbehandeling, 60 minuten
-  price: '24,95'
+  price: '27,50'
   description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.
 
 - icon: icon-flask
@@ -23,8 +23,11 @@
   description:
     - Epileren wenkbrauwen  &euro; 6,00
     - Epileren wenkbrauwen (junior 16 jr.)  &euro; 5,00
+    - Bovenlip harsen &euro; 5,00
+    - Kin harsen &euro; 5,00
+    - Epileren wenkbrauwen & bovenlip harsen &euro; 10,00
 
 - icon: icon-bed
-  title: Barbier
-  price: geen idee
+  title: Gezichtsverzorging inclusief klassiek scheren 
+  price: '24,95'
   description: Scheren
