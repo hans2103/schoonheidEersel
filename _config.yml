@@ -12,11 +12,11 @@ email: 'hans2103@gmail.com'
 description: 'Yvonne, Specialiste in Schoonheid'
 logo_url: svg/min/logo-yvonne.svg
 
-environment: production
+environment: development
 
 # Hero
 hero:
-    hero_img: header-yvonne-bierens.jpg
+    hero_img: header-Yvonne-Bierens.jpg
     hero_title: Yvonne, Specialiste in Schoonheid
     hero_description: Schoonheidsspecialist in Eersel en omstreken
 
