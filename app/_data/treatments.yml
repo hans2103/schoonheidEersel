@@ -20,21 +20,19 @@
 
 - icon: icon-ambulance
   title: Overige behandelingen
-  description:
+  list:
     - Epileren wenkbrauwen  &euro; 6,00
     - Epileren wenkbrauwen (junior 16 jr.)  &euro; 5,00
     - Bovenlip harsen &euro; 5,00
     - Kin harsen &euro; 5,00
     - Epileren wenkbrauwen & bovenlip harsen &euro; 10,00
-    - Wimpers verven &euro; 7,50*
-    - Wenkbrauwen verven &euro; 6*
-    - Wenkbrauwen & wimpers verven &euro; 11,00**
+    - Wimpers verven &euro; 7,50 X
+    - Wenkbrauwen verven &euro; 6 X
+    - Wenkbrauwen & wimpers verven &euro; 11,00 XX
     - Onderbenen of bovenbenen harsen &euro; 12.50
-*, **, *** in combinatie met een huidverzorgende of huidverbeterende behandeling respectievelijk &euro; 5,10
-
-  
+    - X, XX in combinatie met een huidverzorgende of huidverbeterende behandeling respectievelijk &euro; 5,10
 
 - icon: icon-bed
-  title: Gezichtsverzorging inclusief klassiek scheren 
+  title: Gezichtsverzorging inclusief klassiek scheren
   price: '24,95'
   description: Scheren
