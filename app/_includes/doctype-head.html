@@ -5,6 +5,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
+    {% if site.analytics %}
+    {% include gtmhead.html %}
+    {% endif %}
     <title>{{ page.title }} &ndash; {{ site.title }}</title>
 
     <link rel="shortcut icon" href="/favicon.ico" >
