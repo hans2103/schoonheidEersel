@@ -137,6 +137,20 @@ layout: default
     </div>
 </div>
 
+<div id="team" class="team">
+    <h2 class="section-title">Gallerij</h2>
+    <div id="team-carousel">
+        {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <h4>{{ member.name }}</h4>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
 <div id="treatments" class="treatments">
     <div class="container-fluid">
         <h2 class="section-title">Behandelingen</h2>
@@ -164,20 +178,6 @@ layout: default
             </div>
             {% endfor %}
         </div>
-    </div>
-</div>
-
-<div id="team" class="team">
-    <h2 class="section-title">Gallerij</h2>
-    <div id="team-carousel">
-        {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-        </div>
-        {% endfor %}
     </div>
 </div>
 
