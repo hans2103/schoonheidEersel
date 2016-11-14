@@ -30,7 +30,8 @@ contact:
     address: Krekelbos 14<br>5521 SV Eersel - Nederland
 
 # Opening hours
-monday_friday: 09:00 – 22:00
+monday_friday-morning: 09:00 – 14:00
+monday_friday-afternoon: 20:00 - 22:00
 saturday_sunday: gesloten
 
 # Testimonials

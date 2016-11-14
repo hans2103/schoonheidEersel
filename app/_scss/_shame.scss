@@ -16,3 +16,21 @@
 .logo_text--yvonne {
 	fill: darken($pelorous, 10%);
 }
+
+
+.treatments {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		text-align: center;
+		span {
+			color: $headings-small-color;
+			font-weight: bold;
+			display: block;
+		}
+	}
+}

@@ -1,11 +1,11 @@
 - name: Gezichtsmassage
   image: aan-het-werk-gezichtmassage.jpg
 
-- name: JoJoBa Care crème
+- name: Jojoba Care crème
   image: jojoba-care-creme.jpg
 
-- name: Behandelruimte
-  image: behandelkamer.jpg
+- name: Salon
+  image: salon-yvonne-bierens.jpg
 
 - name: Rust
   image: sfeerbeeld-bloem.jpg
@@ -13,5 +13,5 @@
 - name: Aan het werk
   image: aan-het-werk.jpg
 
-- name: JoJoba Care for men
+- name: Jojoba Care for men
   image: jojoba-for-men.jpg
