@@ -1,12 +1,34 @@
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "Organization",
-  "url": "{{ site.url }}",
-  "contactPoint": [{
-    "@type": "ContactPoint",
-    "telephone": "+31-{{ site.contact.phone }}",
-    "contactType": "customer service"
-  }]
+    "@context":"http://schema.org",
+    "@type":"BeautySalon",
+    "name":"{{ site.description }}",
+    "image":"{{ site.url }}/img/logo-yvonne.png",
+    "url":"{{ site.url }}",
+    "email":"{{ site.contact.email }}",
+    "priceRange":"$",
+    "telephone":"+31{{ site.contact.phone}}",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Krekelbos 14",
+        "addressLocality": "Eersel",
+        "addressRegion": "Noord-Brabant",
+        "postalCode": "5521SV",
+        "addressCountry": "NL"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.351526,
+        "longitude": 5.303699
+    },
+    "openingHours": [
+        "Ma-Do 09:00-14:00",
+        "Ma-Do 20:00-22:00"
+    ],
+    "aggregateRating":{
+        "@type":"AggregateRating",
+        "ratingValue":"4.8",
+        "reviewCount":"4"
+    }
 }
 </script>

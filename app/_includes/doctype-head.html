@@ -13,6 +13,40 @@
     <link rel="shortcut icon" href="/favicon.ico" >
     <link href="/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
 
+    <link href="{{ site.url }}{{ page.url }}" rel="canonical">
+
+    {% if page.title %}
+        <meta content="article" property="og:type">
+    {% else %}
+        <meta content="website" property="og:type">
+    {% endif %}
+
+    <meta content="summary" name="twitter:card">
+
+    {% if page.url %}
+        <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+        <meta content="{{ site.url }}{{ page.url }}" name="twitter:url">
+    {% endif %}
+
+    {% if page.date %}
+        <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+        <meta content="{{ site.url }}/about/" property="article:author">
+    {% endif %}
+
+    {% if page.image %}
+        <meta property="og:image" content="{{ site.url }}/img/srcset/{{ page.image }}">
+        <meta name="twitter:image:src" content="{{ site.url }}/img/srcset/{{ page.image }}">
+    {% else %}
+        <meta property="og:image" content="{{ site.url }}/img/logo-yvonne.png">
+        <meta name="twitter:image:src" content="{{ site.url }}/img/logo-yvonne.png">
+    {% endif %}
+
+    {% if page.tags %}
+        {% for tag in page.tags %}
+            <meta property="article:tag" content="{{ tag }}">
+        {% endfor %}
+    {% endif %}
+
     {% if site.google_verification %}
     <meta name="google-site-verification" content="{{ site.google_verification }}">
     {% endif %}
