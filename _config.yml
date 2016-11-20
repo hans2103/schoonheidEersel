@@ -7,7 +7,6 @@
 title: SchoonheidEersel | Yvonne, Specialiste in Schoonheid
 url: https://schoonheideersel.nl
 author: Hans Kuijpers
-twitter: hans2103
 email: hans2103@gmail.com
 description: Yvonne, Specialiste in Schoonheid
 logo_url: svg/min/logo-yvonne.svg
@@ -46,9 +45,10 @@ map:
     address_details: img/logo-yvonne.png
 
 # Social settings
-facebook: https://www.facebook.com/schoonheideersel
-instagram: https://www.instagram.com/skonheit/
-whatsapp: 06 - 5310 5406
+social:
+  facebook: https://www.facebook.com/schoonheideersel
+  instagram: https://www.instagram.com/skonheit/
+  whatsapp: 06 - 5310 5406
 
 # Footer
 copyright: © 2016 SchoonheidEersel - All rights reserved
