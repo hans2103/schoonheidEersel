@@ -4,7 +4,7 @@
 # Note: Grunt handles some Jekyll configuration. If you set something here and
 # it doesn't work, check if it is set in the Gruntfile.
 
-url: 'http://davidensinger.com'
+url: 'https://schoonheideersel.nl'
 
 environment: production
 
