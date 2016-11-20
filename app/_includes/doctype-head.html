@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//www.google-analytics.com" rel="dns-prefetch">
     {% if site.analytics %}
+    <link href="//www.googletagmanager.com" rel="dns-prefetch">
     {% include gtmhead.html %}
     {% endif %}
     <title>{{ page.title }} &ndash; {{ site.title }}</title>
 
     <link rel="shortcut icon" href="/favicon.ico" >
+    <link href="/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
 
     {% if site.google_verification %}
     <meta name="google-site-verification" content="{{ site.google_verification }}">
