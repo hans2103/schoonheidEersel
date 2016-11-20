@@ -8,7 +8,39 @@
     <link href="//www.googletagmanager.com" rel="dns-prefetch">
     {% include gtmhead.html %}
     {% endif %}
-    <title>{{ page.title }} &ndash; {{ site.title }}</title>
+
+    {% if page.title and page.grouptype != "tag" %}
+        <title>{{ page.title }} &ndash; {{ site.title }}</title>
+        <meta content="{{ page.title }}" property="og:title">
+        <meta content="{{ page.title }}" name="twitter:title">
+    {% elsif page.grouptype == "tag" %}
+        <title>Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}</title>
+        <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" property="og:title">
+        <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="twitter:title">
+    {% else %}
+        <title>{{ site.title }}</title>
+        <meta content="{{ site.title }}" property="og:title">
+        <meta content="{{ site.title }}" name="twitter:title">
+    {% endif %}
+
+    <meta content="{{ site.title }}" property="og:site_name">
+
+    {% if page.description and page.grouptype != "tag" %}
+        <meta content="{{ page.description }}" name="description">
+        <meta content="{{ page.description }}" property="og:description">
+        <meta content="{{ page.description }}" name="twitter:description">
+    {% elsif page.grouptype == "tag" %}
+        <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="description">
+        <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" property="og:description">
+        <meta content="Posts Tagged “{{ page.tag }}” &ndash; {{ site.title }}" name="twitter:description">
+    {% else %}
+        <meta content="{{ site.description }}" name="description">
+        <meta content="{{ site.description }}" property="og:description">
+        <meta content="{{ site.description }}" name="twitter:description">
+    {% endif %}
+
+    <meta content="Yvonne Bierens" name="author">
+    <link href="{{ site.social.googleplus }}/posts" rel="author">
 
     <link rel="shortcut icon" href="/favicon.ico" >
     <link href="/sitemap.xml" rel="sitemap" title="Sitemap" type="application/xml">
