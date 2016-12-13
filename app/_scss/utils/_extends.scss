@@ -1,58 +1,52 @@
-/* PLACEHOLDERS
--------------------------------------------------*/
+// PLACEHOLDERS
 
-/* Clearfix
--------------------------------*/
+// Clearfix
 %clearfix {
-    &:after {
-        display: block;
-        content: '';
-        clear: both;
-    }
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
 }
 
-/* Form fields
--------------------------------*/
+// Form fields
 %form-fields {
-    display: block;
-    width: 100%;
-    padding: 5px 10px;
-    border: solid 2px $colorBorder;
-    border-radius: 0;
-    box-shadow: none;
-    &:focus {
-        outline: 0;
-        border-color: $colorPrimary;
-        transition: all 0.3s ease;
-        box-shadow: none;
-    }
+	display: block;
+	width: 100%;
+	padding: 5px 10px;
+	border: solid 2px $colorBorder;
+	border-radius: 0;
+	box-shadow: none;
+	&:focus {
+		outline: 0;
+		border-color: $colorPrimary;
+		transition: all 0.3s ease;
+		box-shadow: none;
+	}
 }
 
-/* Space
--------------------------------*/
+// Space
 %space {
-    padding: $space*3 0;
+	padding: $space*3 0;
 }
 
-/* Lists
--------------------------------*/
+// Lists
 %no-bullet {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
 
-/* Alignment
--------------------------------*/
+// Alignment=
 %align-left {
-    text-align: left;
+	text-align: left;
 }
 
 %align-right {
-    text-align: right;
+	text-align: right;
 }
 
 %align-center {
-    text-align: center;
+	text-align: center;
 }
 
