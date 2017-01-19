@@ -17,7 +17,11 @@ environment: development
 hero:
     hero_img: header-yvonne-bierens.jpg
     hero_title: Yvonne, Specialiste in Schoonheid
-    hero_description: Schoonheidsspecialist in Eersel en omstreken
+    hero_description: Natuurlijke, professionele huidverzorging die leidt
+    tot huidverbetering. Yvonne, Specialiste in Schoonheid heeft aandacht 
+    voor de mens en haar huid en creëert rust en ontspanning in haar salon
+    aan huis. 
+    Gediplomeerd schoonheidsspecialiste in Eersel. 
 
 # Contact form
 api_token: af0d1ae3723865d85b1cc30d6fa0421a
