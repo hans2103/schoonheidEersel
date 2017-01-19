@@ -8,7 +8,7 @@ title: Schoonheidsspecialiste Eersel | Yvonne, Specialiste in Schoonheid
 url: https://schoonheideersel.nl
 author: Hans Kuijpers
 email: hans2103@gmail.com
-description: Yvonne, Specialiste in Schoonheid
+description: Natuurlijke, professionele huidverzorging die leidt tot huidverbetering. Yvonne, Specialiste in Schoonheid heeft aandacht voor de mens en haar huid en creëert rust en ontspanning in haar salon aan huis. Gediplomeerd schoonheidsspecialiste in Eersel.
 logo_url: svg/min/logo-yvonne.svg
 
 environment: development
@@ -17,11 +17,7 @@ environment: development
 hero:
     hero_img: header-yvonne-bierens.jpg
     hero_title: Yvonne, Specialiste in Schoonheid
-    hero_description: Natuurlijke, professionele huidverzorging die leidt
-    tot huidverbetering. Yvonne, Specialiste in Schoonheid heeft aandacht 
-    voor de mens en haar huid en creëert rust en ontspanning in haar salon
-    aan huis. 
-    Gediplomeerd schoonheidsspecialiste in Eersel. 
+    hero_description: Schoonheidsspecialist in Eersel en omstreken
 
 # Contact form
 api_token: af0d1ae3723865d85b1cc30d6fa0421a
