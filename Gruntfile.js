@@ -17,7 +17,7 @@ module.exports = function (grunt) {
         yeoman: {
             app: 'app',
             dist: 'dist',
-            url: 'http://eenpersoonsmaaltijd.nl',
+            url: 'http://schoonheideersel.nl',
             git: 'git@github.com:hans2103/schoonheidEersel.git',
             scripts: [
                 '<%= yeoman.app %>/js/bootstrap.js',
