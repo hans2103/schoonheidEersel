@@ -11,7 +11,7 @@ email: hans2103@gmail.com
 description: Natuurlijke, professionele huidverzorging die leidt tot huidverbetering. Yvonne, Specialiste in Schoonheid heeft aandacht voor de mens en haar huid en creëert rust en ontspanning in haar salon aan huis. Gediplomeerd schoonheidsspecialiste in Eersel.
 logo_url: svg/min/logo-yvonne.svg
 
-environment: development
+environment: production
 
 # Hero
 hero:

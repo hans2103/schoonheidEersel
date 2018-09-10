@@ -187,7 +187,7 @@ module.exports = function (grunt) {
                 }
             },
             html: ['<%= yeoman.dist %>/**/*.html'],
-            css: ['<%= yeoman.dist %>/css/**/*.css'],
+            css: ['<%= yeoman.dist %>/css/**/*.css']
         },
         htmlmin: {
             dist: {
@@ -287,7 +287,7 @@ module.exports = function (grunt) {
             },
             stageLoadCSS: {
                 files: {
-                    '<%= yeoman.app %>/_includes/loadCSS.js': 'node_modules/loadcss'
+                    '<%= yeoman.app %>/_includes/loadCSS.js': 'node_modules/fg-loadcss/src/loadCSS.js'
                 }
             },
             stageOptimizedWebfontLoading: {
