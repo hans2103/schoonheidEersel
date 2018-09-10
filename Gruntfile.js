@@ -25,7 +25,6 @@ module.exports = function (grunt) {
                 '<%= yeoman.app %>/js/jquery.magnific-popup.js',
                 '<%= yeoman.app %>/js/svg-injector.js',
                 '<%= yeoman.app %>/js/gmap3.js',
-                //'bower_components/gmap3/dist/gmap3.js',
                 '<%= yeoman.app %>/js/custom.js'
             ]
         },
@@ -288,12 +287,12 @@ module.exports = function (grunt) {
             },
             stageLoadCSS: {
                 files: {
-                    '<%= yeoman.app %>/_includes/loadCSS.js': 'bower_components/loadCSS/loadCSS.js'
+                    '<%= yeoman.app %>/_includes/loadCSS.js': 'node_modules/loadcss'
                 }
             },
             stageOptimizedWebfontLoading: {
                 files: {
-                    '<%= yeoman.app %>/_includes/fontloader.js': 'bower_components/OptimizedWebfontLoading/build/fontloader.js'
+                    '<%= yeoman.app %>/_includes/fontloader.js': 'node_modules/OptimizedWebfontLoading/build/fontloader.js'
                 }
             }
         },
