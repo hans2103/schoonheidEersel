@@ -13,6 +13,13 @@
 	}
 }
 
+.icon {
+  &.icon-logo {
+    height: 70px;
+    width: auto;
+  }
+}
+
 .logo_text--yvonne {
 	fill: darken($pelorous, 10%);
 }
