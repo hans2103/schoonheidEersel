@@ -9,14 +9,19 @@
   description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.
 
 - icon: icon-diamond
+  title: Wimperlifting
+  price: '35,-'
+  descriptioon: Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €25,-
+
+- icon: icon-diamond
   title: Kruidenpeeling, 90 minuten
   price: '64,95'
-  description: Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker en een dag of nachtcrème.
+  description: Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker en een dag of nachtcrème. Deze kruidenpeeling is een goed alternatief voor de biopeeling.
 
 - icon: icon-diamond
   title: Kruidenpeeling kuurbehandeling, 3 behandelingen met tussenpozen van 14 dagen
   price: '150,-'
-  description: Door drie behandelingen binnen 6 weken laat je huid drie keer vernieuwen. Hierdoor behaal je het maximale resultaat.
+  description: Door drie behandelingen binnen 6 weken laat je huid drie keer vernieuwen. Hierdoor behaal je het maximale resultaat. Deze kruidenpeeling is een goed alternatief voor de biopeeling.
 
 - icon: icon-diamond
   title: Epileren
