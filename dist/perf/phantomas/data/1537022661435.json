@@ -1,0 +1,2337 @@
+{
+  "assertions": {},
+  "metrics": {
+    "requests": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "gzipRequests": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "postRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "httpsRequests": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "notFound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodySize": {
+      "values": [
+        55625,
+        56318,
+        57796,
+        87900,
+        141515,
+        null
+      ],
+      "sum": 399154,
+      "min": 55625,
+      "max": 141515,
+      "median": 57796,
+      "average": 79830.8
+    },
+    "contentLength": {
+      "values": [
+        432970,
+        445989,
+        450204,
+        465131,
+        504770,
+        null
+      ],
+      "sum": 2299064,
+      "min": 432970,
+      "max": 504770,
+      "median": 450204,
+      "average": 459812.8
+    },
+    "httpTrafficCompleted": {
+      "values": [
+        1410,
+        1604,
+        1642,
+        2440,
+        2599,
+        null
+      ],
+      "sum": 9695,
+      "min": 1410,
+      "max": 2599,
+      "median": 1642,
+      "average": 1939
+    },
+    "timeToFirstByte": {
+      "values": [
+        269,
+        277,
+        295,
+        302,
+        830,
+        null
+      ],
+      "sum": 1973,
+      "min": 269,
+      "max": 830,
+      "median": 295,
+      "average": 394.6
+    },
+    "timeToLastByte": {
+      "values": [
+        325,
+        328,
+        345,
+        352,
+        943,
+        null
+      ],
+      "sum": 2293,
+      "min": 325,
+      "max": 943,
+      "median": 345,
+      "average": 458.6
+    },
+    "ajaxRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "htmlCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "htmlSize": {
+      "values": [
+        953,
+        976,
+        978,
+        13995,
+        20907,
+        null
+      ],
+      "sum": 37809,
+      "min": 953,
+      "max": 20907,
+      "median": 978,
+      "average": 7561.8
+    },
+    "cssCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "cssSize": {
+      "values": [
+        991,
+        991,
+        13221,
+        14198,
+        14198,
+        null
+      ],
+      "sum": 43599,
+      "min": 991,
+      "max": 14198,
+      "median": 13221,
+      "average": 8719.8
+    },
+    "jsCount": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "jsSize": {
+      "values": [
+        2544,
+        2544,
+        2544,
+        6594,
+        61135,
+        null
+      ],
+      "sum": 75361,
+      "min": 2544,
+      "max": 61135,
+      "median": 2544,
+      "average": 15072.2
+    },
+    "jsonCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsonSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imageCount": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "imageSize": {
+      "values": [
+        428459,
+        428459,
+        428459,
+        428459,
+        428459,
+        null
+      ],
+      "sum": 2142295,
+      "min": 428459,
+      "max": 428459,
+      "median": 428459,
+      "average": 428459
+    },
+    "videoCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "videoSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "webfontSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "base64Count": {
+      "values": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        null
+      ],
+      "sum": 20,
+      "min": 4,
+      "max": 4,
+      "median": 4,
+      "average": 4
+    },
+    "base64Size": {
+      "values": [
+        62668,
+        62668,
+        62668,
+        62668,
+        62668,
+        null
+      ],
+      "sum": 313340,
+      "min": 62668,
+      "max": 62668,
+      "median": 62668,
+      "average": 62668
+    },
+    "otherCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "otherSize": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cacheHits": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cacheMisses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachePasses": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingNotSpecified": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cachingTooShort": {
+      "values": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        null
+      ],
+      "sum": 60,
+      "min": 12,
+      "max": 12,
+      "median": 12,
+      "average": 12
+    },
+    "cachingDisabled": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "oldCachingHeaders": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "consoleMessages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesSent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "cookiesRecv": {
+      "values": [
+        144,
+        144,
+        144,
+        144,
+        144,
+        null
+      ],
+      "sum": 720,
+      "min": 144,
+      "max": 144,
+      "median": 144,
+      "average": 144
+    },
+    "domainsWithCookies": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentCookiesLength": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentCookiesCount": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "documentHeight": {
+      "values": [
+        9842,
+        9842,
+        9842,
+        9842,
+        9842,
+        null
+      ],
+      "sum": 49210,
+      "min": 9842,
+      "max": 9842,
+      "median": 9842,
+      "average": 9842
+    },
+    "commentsSize": {
+      "values": [
+        184,
+        184,
+        184,
+        184,
+        184,
+        null
+      ],
+      "sum": 920,
+      "min": 184,
+      "max": 184,
+      "median": 184,
+      "average": 184
+    },
+    "whiteSpacesSize": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "DOMelementsCount": {
+      "values": [
+        345,
+        345,
+        345,
+        345,
+        345,
+        null
+      ],
+      "sum": 1725,
+      "min": 345,
+      "max": 345,
+      "median": 345,
+      "average": 345
+    },
+    "DOMelementMaxDepth": {
+      "values": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        null
+      ],
+      "sum": 50,
+      "min": 10,
+      "max": 10,
+      "median": 10,
+      "average": 10
+    },
+    "nodesWithInlineCSS": {
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        null
+      ],
+      "sum": 45,
+      "min": 9,
+      "max": 9,
+      "median": 9,
+      "average": 9
+    },
+    "imagesScaledDown": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "imagesWithoutDimensions": {
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        null
+      ],
+      "sum": 35,
+      "min": 7,
+      "max": 7,
+      "median": 7,
+      "average": 7
+    },
+    "DOMidDuplicated": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "hiddenContentSize": {
+      "values": [
+        1240,
+        1240,
+        1240,
+        1240,
+        1240,
+        null
+      ],
+      "sum": 6200,
+      "min": 1240,
+      "max": 1240,
+      "median": 1240,
+      "average": 1240
+    },
+    "hiddenImages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsInserts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsRemoves": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMmutationsAttributes": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueries": {
+      "values": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        null
+      ],
+      "sum": 25,
+      "min": 5,
+      "max": 5,
+      "median": 5,
+      "average": 5
+    },
+    "DOMqueriesWithoutResults": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "DOMqueriesById": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesByClassName": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesByTagName": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "DOMqueriesByQuerySelectorAll": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMinserts": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "DOMqueriesDuplicated": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "DOMqueriesAvoidable": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domains": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "maxRequestsPerDomain": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "medianRequestsPerDomain": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "eventsBound": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "eventsDispatched": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "eventsScrollBound": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "globalVariables": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "globalVariablesFalsy": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "headersCount": {
+      "values": [
+        245,
+        246,
+        247,
+        247,
+        247,
+        null
+      ],
+      "sum": 1232,
+      "min": 245,
+      "max": 247,
+      "median": 247,
+      "average": 246.4
+    },
+    "headersSentCount": {
+      "values": [
+        38,
+        38,
+        38,
+        38,
+        38,
+        null
+      ],
+      "sum": 190,
+      "min": 38,
+      "max": 38,
+      "median": 38,
+      "average": 38
+    },
+    "headersRecvCount": {
+      "values": [
+        207,
+        208,
+        209,
+        209,
+        209,
+        null
+      ],
+      "sum": 1042,
+      "min": 207,
+      "max": 209,
+      "median": 209,
+      "average": 208.4
+    },
+    "headersSize": {
+      "values": [
+        9024,
+        9025,
+        9051,
+        9059,
+        9064,
+        null
+      ],
+      "sum": 45223,
+      "min": 9024,
+      "max": 9064,
+      "median": 9051,
+      "average": 9044.6
+    },
+    "headersSentSize": {
+      "values": [
+        1492,
+        1492,
+        1492,
+        1492,
+        1492,
+        null
+      ],
+      "sum": 7460,
+      "min": 1492,
+      "max": 1492,
+      "median": 1492,
+      "average": 1492
+    },
+    "headersRecvSize": {
+      "values": [
+        7532,
+        7533,
+        7559,
+        7567,
+        7572,
+        null
+      ],
+      "sum": 37763,
+      "min": 7532,
+      "max": 7572,
+      "median": 7559,
+      "average": 7552.6
+    },
+    "headersBiggerThanContent": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryVersionsLoaded": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryOnDOMReadyFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryWindowOnLoadFunctions": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQuerySizzleCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryEventTriggers": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMReads": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWrites": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jQueryDOMWriteReadSwitches": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "documentWriteCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "evalCalls": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "jsErrors": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "closedConnections": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "lazyLoadableImagesBelowTheFold": {
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        null
+      ],
+      "sum": 35,
+      "min": 7,
+      "max": 7,
+      "median": 7,
+      "average": 7
+    },
+    "localStorageEntries": {
+      "values": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 10,
+      "min": 2,
+      "max": 2,
+      "median": 2,
+      "average": 2
+    },
+    "redirects": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "redirectsTime": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "repaints": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "firstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToFirstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "domainsToFirstPaint": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "requestsToDomContentLoaded": {
+      "values": [
+        3,
+        3,
+        3,
+        4,
+        5,
+        null
+      ],
+      "sum": 18,
+      "min": 3,
+      "max": 5,
+      "median": 3,
+      "average": 3.6
+    },
+    "domainsToDomContentLoaded": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "requestsToDomComplete": {
+      "values": [
+        13,
+        13,
+        13,
+        13,
+        13,
+        null
+      ],
+      "sum": 65,
+      "min": 13,
+      "max": 13,
+      "median": 13,
+      "average": 13
+    },
+    "domainsToDomComplete": {
+      "values": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "sum": 5,
+      "min": 1,
+      "max": 1,
+      "median": 1,
+      "average": 1
+    },
+    "assetsNotGzipped": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "assetsWithQueryString": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "assetsWithCookies": {
+      "values": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        null
+      ],
+      "sum": 60,
+      "min": 12,
+      "max": 12,
+      "median": 12,
+      "average": 12
+    },
+    "smallImages": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallCssFiles": {
+      "values": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        null
+      ],
+      "sum": 2,
+      "min": 0,
+      "max": 1,
+      "median": 0,
+      "average": 0.4
+    },
+    "smallJsFiles": {
+      "values": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        null
+      ],
+      "sum": 8,
+      "min": 1,
+      "max": 2,
+      "median": 2,
+      "average": 1.6
+    },
+    "multipleRequests": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "timeToFirstCss": {
+      "values": [
+        1411,
+        1605,
+        1643,
+        2440,
+        2599,
+        null
+      ],
+      "sum": 9698,
+      "min": 1411,
+      "max": 2599,
+      "median": 1643,
+      "average": 1939.6
+    },
+    "timeToFirstJs": {
+      "values": [
+        434,
+        435,
+        460,
+        463,
+        1098,
+        null
+      ],
+      "sum": 2890,
+      "min": 434,
+      "max": 1098,
+      "median": 460,
+      "average": 578
+    },
+    "timeToFirstImage": {
+      "values": [
+        785,
+        785,
+        807,
+        818,
+        1086,
+        null
+      ],
+      "sum": 4281,
+      "min": 785,
+      "max": 1086,
+      "median": 807,
+      "average": 856.2
+    },
+    "domInteractive": {
+      "values": [
+        145,
+        153,
+        154,
+        401,
+        474,
+        null
+      ],
+      "sum": 1327,
+      "min": 145,
+      "max": 474,
+      "median": 154,
+      "average": 265.4
+    },
+    "domContentLoaded": {
+      "values": [
+        474,
+        498,
+        503,
+        801,
+        1344,
+        null
+      ],
+      "sum": 3620,
+      "min": 474,
+      "max": 1344,
+      "median": 503,
+      "average": 724
+    },
+    "domContentLoadedEnd": {
+      "values": [
+        145,
+        153,
+        154,
+        401,
+        475,
+        null
+      ],
+      "sum": 1328,
+      "min": 145,
+      "max": 475,
+      "median": 154,
+      "average": 265.6
+    },
+    "domComplete": {
+      "values": [
+        479,
+        1291,
+        1308,
+        2125,
+        2266,
+        null
+      ],
+      "sum": 7469,
+      "min": 479,
+      "max": 2266,
+      "median": 1308,
+      "average": 1493.8
+    },
+    "timeBackend": {
+      "values": [
+        12,
+        12,
+        17,
+        19,
+        63,
+        null
+      ],
+      "sum": 123,
+      "min": 12,
+      "max": 63,
+      "median": 17,
+      "average": 24.6
+    },
+    "timeFrontend": {
+      "values": [
+        37,
+        81,
+        83,
+        88,
+        88,
+        null
+      ],
+      "sum": 377,
+      "min": 37,
+      "max": 88,
+      "median": 83,
+      "average": 75.4
+    },
+    "requestsWithTimeout": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "blockedRequests": {
+      "values": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        null
+      ],
+      "sum": 15,
+      "min": 3,
+      "max": 3,
+      "median": 3,
+      "average": 3
+    },
+    "windowAlerts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowConfirms": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "windowPrompts": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "bodyHTMLSize": {
+      "values": [
+        46556,
+        46556,
+        46556,
+        46556,
+        46556,
+        null
+      ],
+      "sum": 232780,
+      "min": 46556,
+      "max": 46556,
+      "median": 46556,
+      "average": 46556
+    },
+    "iframesCount": {
+      "values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        null
+      ],
+      "sum": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "average": 0
+    },
+    "smallestResponse": {
+      "values": [
+        953,
+        976,
+        978,
+        991,
+        1239,
+        null
+      ],
+      "sum": 5137,
+      "min": 953,
+      "max": 1239,
+      "median": 978,
+      "average": 1027.4
+    },
+    "biggestResponse": {
+      "values": [
+        82721,
+        82721,
+        82721,
+        82721,
+        82721,
+        null
+      ],
+      "sum": 413605,
+      "min": 82721,
+      "max": 82721,
+      "median": 82721,
+      "average": 82721
+    },
+    "fastestResponse": {
+      "values": [
+        21,
+        22,
+        30,
+        115,
+        118,
+        null
+      ],
+      "sum": 306,
+      "min": 21,
+      "max": 118,
+      "median": 30,
+      "average": 61.2
+    },
+    "slowestResponse": {
+      "values": [
+        943,
+        1000,
+        1245,
+        2085,
+        2087,
+        null
+      ],
+      "sum": 7360,
+      "min": 943,
+      "max": 2087,
+      "median": 1245,
+      "average": 1472
+    },
+    "smallestLatency": {
+      "values": [
+        17,
+        18,
+        20,
+        26,
+        115,
+        null
+      ],
+      "sum": 196,
+      "min": 17,
+      "max": 115,
+      "median": 20,
+      "average": 39.2
+    },
+    "biggestLatency": {
+      "values": [
+        576,
+        830,
+        993,
+        2072,
+        2074,
+        null
+      ],
+      "sum": 6545,
+      "min": 576,
+      "max": 2074,
+      "median": 993,
+      "average": 1309
+    },
+    "medianResponse": {
+      "values": [
+        400,
+        473,
+        474,
+        486,
+        555,
+        null
+      ],
+      "sum": 2388,
+      "min": 400,
+      "max": 555,
+      "median": 474,
+      "average": 477.6
+    },
+    "medianLatency": {
+      "values": [
+        287,
+        293,
+        293,
+        385,
+        470,
+        null
+      ],
+      "sum": 1728,
+      "min": 287,
+      "max": 470,
+      "median": 293,
+      "average": 345.6
+    }
+  },
+  "offenders": {
+    "gzipRequests": [
+      "https://schoonheideersel.nl/ (gzip: 0.93 kB / uncompressed: 0.93 kB)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (gzip: 1.21 kB / uncompressed: 1.21 kB)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (gzip: 5.23 kB / uncompressed: 5.23 kB)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (gzip: 13.87 kB / uncompressed: 13.87 kB)",
+      "https://schoonheideersel.nl/ (gzip: 20.42 kB / uncompressed: 20.42 kB)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (gzip: 1.27 kB / uncompressed: 1.27 kB)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (gzip: 12.91 kB / uncompressed: 12.91 kB)",
+      "https://schoonheideersel.nl/ (gzip: 13.67 kB / uncompressed: 13.67 kB)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (gzip: 0.97 kB / uncompressed: 0.97 kB)",
+      "https://schoonheideersel.nl/ (gzip: 0.95 kB / uncompressed: 0.95 kB)",
+      "https://schoonheideersel.nl/ (gzip: 0.96 kB / uncompressed: 0.96 kB)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (gzip: 58.49 kB / uncompressed: 58.49 kB)"
+    ],
+    "httpsRequests": [
+      "https://schoonheideersel.nl/",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg",
+      "https://schoonheideersel.nl/img/parallax.jpg",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg",
+      "https://schoonheideersel.nl/css/styles.c6c1.css"
+    ],
+    "htmlCount": [
+      "https://schoonheideersel.nl/ (size: 0.93 kB, latency: 269 ms)",
+      "https://schoonheideersel.nl/ (size: 20.42 kB, latency: 302 ms)",
+      "https://schoonheideersel.nl/ (size: 13.67 kB, latency: 295 ms)",
+      "https://schoonheideersel.nl/ (size: 0.95 kB, latency: 277 ms)",
+      "https://schoonheideersel.nl/ (size: 0.96 kB, latency: 830 ms)"
+    ],
+    "cssCount": [
+      "https://schoonheideersel.nl/css/styles.c6c1.css (size: 13.87 kB, latency: 26 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (size: 12.91 kB, latency: 284 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (size: 0.97 kB, latency: 20 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (size: 0.97 kB, latency: 17 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (size: 13.87 kB, latency: 18 ms)"
+    ],
+    "jsCount": [
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (size: 1.21 kB, latency: 113 ms)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (size: 5.23 kB, latency: 467 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (size: 1.21 kB, latency: 115 ms)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (size: 1.27 kB, latency: 133 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (size: 1.21 kB, latency: 118 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (size: 1.21 kB, latency: 110 ms)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (size: 1.27 kB, latency: 127 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (size: 1.21 kB, latency: 157 ms)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (size: 58.49 kB, latency: 389 ms)"
+    ],
+    "imageCount": [
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (size: 61.09 kB, latency: 150 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (size: 37.31 kB, latency: 462 ms)",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg (size: 49.10 kB, latency: 293 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (size: 42.03 kB, latency: 286 ms)",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg (size: 30.98 kB, latency: 484 ms)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (size: 29.87 kB, latency: 732 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (size: 43.50 kB, latency: 993 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (size: 80.78 kB, latency: 993 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (size: 43.75 kB, latency: 140 ms)",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg (size: 30.98 kB, latency: 459 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (size: 43.50 kB, latency: 482 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (size: 42.03 kB, latency: 470 ms)",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (size: 61.09 kB, latency: 479 ms)",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg (size: 49.10 kB, latency: 493 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (size: 43.75 kB, latency: 556 ms)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (size: 29.87 kB, latency: 574 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (size: 80.78 kB, latency: 576 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (size: 37.31 kB, latency: 146 ms)",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (size: 61.09 kB, latency: 149 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (size: 43.75 kB, latency: 147 ms)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (size: 29.87 kB, latency: 554 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (size: 80.78 kB, latency: 569 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (size: 37.31 kB, latency: 148 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (size: 42.03 kB, latency: 298 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (size: 43.50 kB, latency: 2072 ms)",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (size: 61.09 kB, latency: 280 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (size: 43.75 kB, latency: 286 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (size: 37.31 kB, latency: 287 ms)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (size: 29.87 kB, latency: 547 ms)",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg (size: 30.98 kB, latency: 478 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (size: 80.78 kB, latency: 557 ms)",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg (size: 49.10 kB, latency: 289 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (size: 43.50 kB, latency: 2067 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (size: 42.03 kB, latency: 2074 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (size: 37.31 kB, latency: 143 ms)",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg (size: 30.98 kB, latency: 383 ms)",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (size: 61.09 kB, latency: 294 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (size: 42.03 kB, latency: 384 ms)",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg (size: 49.10 kB, latency: 385 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (size: 43.75 kB, latency: 388 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (size: 43.50 kB, latency: 413 ms)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (size: 29.87 kB, latency: 410 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (size: 80.78 kB, latency: 422 ms)"
+    ],
+    "cachingTooShort": [
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js cached for 172800 s",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js cached for 14400 s",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/parallax.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg cached for 14400 s",
+      "https://schoonheideersel.nl/css/styles.c6c1.css cached for 14400 s"
+    ],
+    "oldCachingHeaders": [
+      "https://schoonheideersel.nl/ - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js - Expires: Mon, 17 Sep 2018 14:44:23 GMT",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/parallax.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg - Expires: Sat, 15 Sep 2018 18:44:23 GMT",
+      "https://schoonheideersel.nl/css/styles.c6c1.css - Expires: Sat, 15 Sep 2018 18:44:24 GMT",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg - Expires: Sat, 15 Sep 2018 18:44:25 GMT",
+      "https://schoonheideersel.nl/css/styles.c6c1.css - Expires: Sat, 15 Sep 2018 18:44:25 GMT",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg - Expires: Sat, 15 Sep 2018 18:44:25 GMT",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg - Expires: Sat, 15 Sep 2018 18:44:24 GMT",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg - Expires: Sat, 15 Sep 2018 18:44:24 GMT",
+      "https://schoonheideersel.nl/img/parallax.jpg - Expires: Sat, 15 Sep 2018 18:44:24 GMT"
+    ],
+    "domainsWithCookies": [
+      "schoonheideersel.nl: 1 cookie(s)"
+    ],
+    "commentsSize": [
+      "body > #comment[0] (184 characters)"
+    ],
+    "DOMelementMaxDepth": [
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box >ul[3] > li[0] > ul[0] > li[0] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[1] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[2] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[3] > br[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[0] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[3] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[4] > span[0]",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] > ul[0] > li[5] > br[0]"
+    ],
+    "nodesWithInlineCSS": [
+      "body > svg[1] (display:none)",
+      "body > div.hero (background:url(/img/header-yvonne-bierens.jpg) no-repeat;background-size:cover)",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] (list-style:none;margin:0;padding:0)",
+      "body > div#treatments > div.container-fluid > div.row > div.col-sm-6.col-md-4 > div.icon-box > ul[3] > li[0] (text-align:left)",
+      "body > div#testimonials (background-image:url(/img/parallax.jpg))"
+    ],
+    "imagesWithoutDimensions": [
+      "body > div#about > div.container-fluid > div.row > div.col-sm-4.col-sm-offset-1 > img[0] <https://schoonheideersel.nl/img/yvonne-bierens.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/jojoba-care-creme.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/aan-het-werk.jpg>",
+      "body > div#team > div#team-carousel > div.expandable-box > div.expandable-box-top > img[0] <https://schoonheideersel.nl/img/jojoba-for-men.jpg>"
+    ],
+    "hiddenContentSize": [
+      "body > script[11] (1098 characters)"
+    ],
+    "DOMqueriesWithoutResults": [
+      "template (in #document) using querySelectorAll"
+    ],
+    "DOMqueriesByTagName": [
+      "script (in #document)",
+      "head (in #document)"
+    ],
+    "DOMqueriesByQuerySelectorAll": [
+      "a (in #document)",
+      ".__cf_email__ (in #document)",
+      "template (in #document)"
+    ],
+    "DOMinserts": [
+      "\"head > script[4]\" appended to \"head\"",
+      "\"head > style[26]\" appended to \"head\"",
+      "\"head > link[29]\" appended to \"head\""
+    ],
+    "domains": [
+      "schoonheideersel.nl: 13 request(s)"
+    ],
+    "eventsBound": [
+      "\"load\" bound to \"link\""
+    ],
+    "globalVariables": [
+      "loadFont",
+      "dataLayer",
+      "loadCSS"
+    ],
+    "jsErrors": [
+      "Error: Bootstrap's JavaScript requires jQuery - global code(): https://schoonheideersel.nl/js/all.min.cfe6.js @ 1"
+    ],
+    "lazyLoadableImagesBelowTheFold": [
+      "img/yvonne-bierens.jpg",
+      "/img/aan-het-werk-gezichtmassage.jpg",
+      "/img/jojoba-care-creme.jpg",
+      "/img/salon-yvonne-bierens.jpg",
+      "/img/sfeerbeeld-bloem.jpg",
+      "/img/aan-het-werk.jpg",
+      "/img/jojoba-for-men.jpg"
+    ],
+    "localStorageEntries": [
+      "x-font-optimizedWebFontscss",
+      "x-font-optimizedWebFontsurl"
+    ],
+    "domainsToDomContentLoaded": [
+      "schoonheideersel.nl (4 requests)",
+      "schoonheideersel.nl (3 requests)",
+      "schoonheideersel.nl (5 requests)"
+    ],
+    "domainsToDomComplete": [
+      "schoonheideersel.nl (13 requests)"
+    ],
+    "assetsWithCookies": [
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (JS)",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg (IMAGE)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (JS)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/jojoba-care-creme.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/jojoba-for-men.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/parallax.jpg (IMAGE)",
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (IMAGE)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (CSS)"
+    ],
+    "smallJsFiles": [
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (1.21 kB)",
+      "https://schoonheideersel.nl/js/all.min.cfe6.js (1.27 kB)"
+    ],
+    "timeToFirstCss": [
+      "https://schoonheideersel.nl/css/styles.c6c1.css received in 1605 ms",
+      "https://schoonheideersel.nl/css/styles.c6c1.css received in 1643 ms",
+      "https://schoonheideersel.nl/css/styles.c6c1.css received in 2599 ms",
+      "https://schoonheideersel.nl/css/styles.c6c1.css received in 2440 ms",
+      "https://schoonheideersel.nl/css/styles.c6c1.css received in 1411 ms"
+    ],
+    "timeToFirstJs": [
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js received in 434 ms",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js received in 463 ms",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js received in 460 ms",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js received in 435 ms",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js received in 1098 ms"
+    ],
+    "timeToFirstImage": [
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg received in 785 ms",
+      "https://schoonheideersel.nl/img/sfeerbeeld-bloem.jpg received in 818 ms",
+      "https://schoonheideersel.nl/img/yvonne-bierens.jpg received in 807 ms",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg received in 1086 ms"
+    ],
+    "blockedRequests": [
+      "https://www.googletagmanager.com/gtm.js?id=GTM-M9DK3T",
+      "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js",
+      "https://maps.googleapis.com/maps/api/js?key=AIzaSyClRlC_QWfD6YEIL-5kqTlFBln4Hd8Cj70"
+    ],
+    "smallestResponse": [
+      "https://schoonheideersel.nl/ (0.93 kB)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (1.21 kB)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (0.97 kB)",
+      "https://schoonheideersel.nl/ (0.95 kB)",
+      "https://schoonheideersel.nl/ (0.96 kB)"
+    ],
+    "biggestResponse": [
+      "https://schoonheideersel.nl/img/parallax.jpg (80.78 kB)"
+    ],
+    "fastestResponse": [
+      "https://schoonheideersel.nl/css/styles.c6c1.css (30 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (115 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (118 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (22 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (21 ms)"
+    ],
+    "slowestResponse": [
+      "https://schoonheideersel.nl/img/aan-het-werk-gezichtmassage.jpg (1245 ms)",
+      "https://schoonheideersel.nl/img/header-yvonne-bierens.jpg (1000 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (2087 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (2085 ms)",
+      "https://schoonheideersel.nl/ (943 ms)"
+    ],
+    "smallestLatency": [
+      "https://schoonheideersel.nl/css/styles.c6c1.css (26 ms)",
+      "https://schoonheideersel.nl/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js (115 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (20 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (17 ms)",
+      "https://schoonheideersel.nl/css/styles.c6c1.css (18 ms)"
+    ],
+    "biggestLatency": [
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (993 ms)",
+      "https://schoonheideersel.nl/img/parallax.jpg (576 ms)",
+      "https://schoonheideersel.nl/img/aan-het-werk.jpg (2072 ms)",
+      "https://schoonheideersel.nl/img/salon-yvonne-bierens.jpg (2074 ms)",
+      "https://schoonheideersel.nl/ (830 ms)"
+    ],
+    "smallCssFiles": [
+      "https://schoonheideersel.nl/css/styles.c6c1.css (0.97 kB)"
+    ]
+  }
+}
