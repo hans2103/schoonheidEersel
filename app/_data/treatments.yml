@@ -1,56 +1,50 @@
 - icon: icon-diamond
-  title: Gezichtsbehandeling, 90 minuten
-  price: '34,95'
+  title: Huidverzorgende gezichtsbehandeling, 90 minuten
+  price: '39,95'
   description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème.
 
 - icon: icon-diamond
-  title: Gezichtsbehandeling, 60 minuten
-  price: '29,95'
+  title: Huidverzorgende gezichtsbehandeling, 60 minuten
+  price: '33,95'
   description: Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.
 
 - icon: icon-diamond
-  title: Wimperlifting
-  price: '35,-'
-  description: Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €25,-
-
-- icon: icon-diamond
-  title: Kruidenpeeling, 90 minuten
-  price: '64,95'
+  title: Kruidenpeeling, huidverbeterende behandeling, 90 minuten
+  price: '49,95'
   description: Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker en een dag of nachtcrème. Deze kruidenpeeling is een goed alternatief voor de biopeeling.
 
 - icon: icon-diamond
-  title: Kruidenpeeling kuurbehandeling, 3 behandelingen met tussenpozen van 14 dagen
-  price: '150,-'
-  description: Door drie behandelingen binnen 6 weken laat je huid drie keer vernieuwen. Hierdoor behaal je het maximale resultaat. Deze kruidenpeeling is een goed alternatief voor de biopeeling.
+  title: Wimperlifting
+  price: '35,00'
+  description: Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €30,00
 
 - icon: icon-diamond
   title: Epileren
   list: "
     <ul>
-      <li>Epileren wenkbrauwen  <span>&euro; 7,50</span></li>
-      <li>Epileren wenkbrauwen (junior 16 jr.)  <span>&euro; 6,00</span></li>
-      <li>Epileren wenkbrauwen & bovenlip harsen <span>&euro; 11,50</span></li>
-      <li><br>&#42; in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandeling &euro; 2,50 korting</li>
+      <li>Wenkbrauwen epileren <span>&euro; 8,50</span></li>
+      <li>Wenkbrauwen junior (< 18 jr.) epileren <span>&euro; 7,00</span></li>
+      <li>Wenkbrauwen epileren & bovenlip harsen <span>&euro; 13,00</span></li>
     </ul>"
 
 - icon: icon-diamond
   title: Harsen
   list: "
     <ul>
-      <li>Bovenlip harsen <span>&euro; 6,00</span></li>
-      <li>Kin harsen <span>&euro; 6,00</span></li>
-      <li>Oksels harsen <span>&euro; 15,00</span></li>
-      <li>Epileren wenkbrauwen & bovenlip harsen <span>&euro; 11,50</span></li>
-      <li>Onderbenen of bovenbenen harsen <span>&euro; 15,00</span></li>
-      <li><br>&#42; in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandeling &euro; 2,50 korting</li>
+      <li>Bovenlip harsen <span>&euro; 7,00</span></li>
+      <li>Kin harsen <span>&euro; 7,00</span></li>
+      <li>Oksels harsen<span>&euro; 15,00</span></li>
+      <li>Onderbenen of bovenbenen harsen <span>&euro; 20,00</span></li>
+      <li>Wenkbrauwen epileren & bovenlip harsen <span>&euro; 13,00</span></li>
     </ul>"
 
 - icon: icon-diamond
   title: Verven
   list: "
     <ul>
-      <li>Wimpers verven <span>&euro; 9,00 &#42;</li>
-      <li>Wenkbrauwen verven <span>&euro; 7,50 &#42;</span></li>
-      <li>Wenkbrauwen & wimpers verven <span>&euro; 14,00 &#42;</span></li>
-      <li><br>&#42; in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandeling &euro; 2,50 korting</li>
+      <li>Wimpers verven <span>&euro; 10,00 (&euro; 5,00 &#42;)</li>
+      <li>Wenkbrauwen verven <span>&euro; 8,50 (&euro; 5,00 &#42;)</span></li>
+      <li>Wenkbrauwen verven en epileren &amp; <br>wimpers verven <span>&euro; 20,00</span></li>
+      <li>Wenkbrauwen verven en epileren, <br>wimpers verven &amp; bovenlip harsen <span>&euro; 28,50</span></li>
+      <li><br>&#42; alleen in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandelingen voor &euro; 5,- korting</li>
     </ul>"
