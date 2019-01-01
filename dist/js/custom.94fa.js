@@ -2,7 +2,7 @@ function validateForm(){
   var subject = document.getElementById('form[subject]');
   var isValid = true;
 
-  if (subject.val().length > 0) {
+  if (subject.value.length > 0) {
     isValid = false;
   }
 
@@ -11,7 +11,7 @@ function validateForm(){
   }
 
   if (!isValid) {
-    window.location = 'https://nu.nl';
+    window.location = 'https://schoonheideersel.nl';
   }
 }
 
