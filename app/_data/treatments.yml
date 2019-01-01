@@ -23,8 +23,9 @@
   list: "
     <ul>
       <li>Wenkbrauwen epileren <span>&euro; 8,50</span></li>
-      <li>Wenkbrauwen junior (< 18 jr.) epileren <span>&euro; 7,00</span></li>
+      <li>Wenkbrauwen epileren junior (< 18 jr.)<span>&euro; 7,00</span></li>
       <li>Wenkbrauwen epileren & bovenlip harsen <span>&euro; 13,00</span></li>
+      <li>Wenkbrauwen epileren & bovenlip harsen junior (< 18 jr.)<span>&euro; 11,50</span></li>
     </ul>"
 
 - icon: icon-diamond
@@ -46,5 +47,5 @@
       <li>Wenkbrauwen verven <span>&euro; 8,50 (&euro; 5,00 &#42;)</span></li>
       <li>Wenkbrauwen verven en epileren &amp; <br>wimpers verven <span>&euro; 20,00</span></li>
       <li>Wenkbrauwen verven en epileren, <br>wimpers verven &amp; bovenlip harsen <span>&euro; 28,50</span></li>
-      <li><br>&#42; alleen in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandelingen voor &euro; 5,- korting</li>
+      <li><br>&#42; alleen in combinatie met een huidverzorgende of huidverbeterende behandeling krijgt u op deze behandelingen voor &euro; 5,-</li>
     </ul>"

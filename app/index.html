@@ -1,215 +1,218 @@
 ---
 layout: default
 sitemap:
-    priority: 0.9
+priority: 0.9
 ---
 
 <!-- Start Hero -->
 <div class="hero"
      style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
-    <div class="hero-content">
-        <div class="container-fluid">
-            <div class="hero-content-inner">
-                <h1>{{ site.hero.hero_title }}</h1>
-                <p>{{ site.hero.hero_description }}</p>
-            </div>
-        </div>
-    </div>
-
+  <div class="hero-content">
     <div class="container-fluid">
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3>
-                <svg class="icon icon-envelope-o">
-                    <use xlink:href="#icon-envelope-o"></use>
-                </svg>
-                Maak een afspraak
-            </h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Naam" required>
-                </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Telefoonnummer" required>
-                </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="E-mail" required>
-                </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Bericht" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Versturen">
-            </form>
-        </div>
-
+      <div class="hero-content-inner">
+        <h1>{{ site.hero.hero_title }}</h1>
+        <p>{{ site.hero.hero_description }}</p>
+      </div>
     </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+      <h3>
+        <svg class="icon icon-envelope-o">
+          <use xlink:href="#icon-envelope-o"></use>
+        </svg>
+        Maak een afspraak
+      </h3>
+      <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post" id="form" class="form">
+        <div class="form-field form-field--name">
+          <input id="form[name]" name="name" type="text" placeholder="Naam" required aria-required="true">
+        </div>
+        <div class="form-field form-field--phone">
+          <input id="form[phone]" name="phone" type="tel" placeholder="Telefoonnummer" required aria-required="true">
+        </div>
+        <div class="form-field form-field--email">
+          <input id="form[email]" name="email" type="email" placeholder="E-mail" required aria-required="true">
+        </div>
+        <div class="form-field form-field--subject" aria-hidden="true">
+          <input id="form[subject]" name="subject" type="text" placeholder="Subject">
+        </div>
+        <div class="form-field form-field--comments">
+          <textarea id="form[comments]" name="comments" placeholder="Bericht" required aria-required="true"></textarea>
+        </div>
+        <input type="submit" class="btn btn-default form__submit" value="Versturen">
+      </form>
+    </div>
+
+  </div>
 </div>
 
 <div class="three-shade-col" role="main">
-    <div class="col-sm-4">
-        <svg class="icon icon-envelope-o">
-            <use xlink:href="#icon-envelope-o"></use>
-        </svg>
-        <h3>Bel of mail me</h3>
-        <ul>
-            {% if site.contact.phone %}
-            <li><strong>Telefoon:</strong> {{ site.contact.phone }}</li>
-            {% endif %}
-            {% if site.contact.email %}
-            <li><strong>E-mail:</strong> {{ site.contact.email }}</li>
-            {% endif %}
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-clock-o">
-            <use xlink:href="#icon-clock-o"></use>
-        </svg>
-        <h3>Openingstijden</h3>
-        <p>Maandag - donderdag<br>
-            {{ site.monday_friday-morning }}<br>
-            {{ site.monday_friday-afternoon }}<br>
-            Buiten deze tijden in overleg.</p>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker">
-            <use xlink:href="#icon-map-marker"></use>
-        </svg>
-        <h3>Locatie</h3>
-        <p>
-            {{ site.contact.address }}
-        </p>
-    </div>
+  <div class="col-sm-4">
+    <svg class="icon icon-envelope-o">
+      <use xlink:href="#icon-envelope-o"></use>
+    </svg>
+    <h3>Bel of mail me</h3>
+    <ul>
+      {% if site.contact.phone %}
+      <li><strong>Telefoon:</strong> {{ site.contact.phone }}</li>
+      {% endif %}
+      {% if site.contact.email %}
+      <li><strong>E-mail:</strong> {{ site.contact.email }}</li>
+      {% endif %}
+    </ul>
+  </div>
+  <div class="col-sm-4">
+    <svg class="icon icon-clock-o">
+      <use xlink:href="#icon-clock-o"></use>
+    </svg>
+    <h3>Openingstijden</h3>
+    <p>Maandag - donderdag<br>
+      {{ site.monday_friday-morning }}<br>
+      {{ site.monday_friday-afternoon }}<br>
+      Buiten deze tijden in overleg.</p>
+  </div>
+  <div class="col-sm-4">
+    <svg class="icon icon-map-marker">
+      <use xlink:href="#icon-map-marker"></use>
+    </svg>
+    <h3>Locatie</h3>
+    <p>
+      {{ site.contact.address }}
+    </p>
+  </div>
 </div>
 
 
 <div id="about" class="about">
-    <div class="container-fluid">
-        <h2 class="section-title">Over mij</h2>
+  <div class="container-fluid">
+    <h2 class="section-title">Over mij</h2>
 
-        <div class="row">
-            <div class="col-sm-7">
-                <h3>Schoonheidsspecialiste in Eersel</h3>
-                <p>Mijn naam is Yvonne Bierens-Schellens en ik heb in mei 2014 het diploma voor schoonheidsspecialiste
-                    behaald aan de Syntra in Neerpelt.</p>
+    <div class="row">
+      <div class="col-sm-7">
+        <h3>Schoonheidsspecialiste in Eersel</h3>
+        <p>Mijn naam is Yvonne Bierens-Schellens en ik heb in mei 2014 het diploma voor schoonheidsspecialiste
+          behaald aan de Syntra in Neerpelt.</p>
 
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-heart">
-                                <use xlink:href="#icon-heart"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Ik heb gekozen voor het vak schoonheidsspecialiste omdat ik het heerlijk vind om mensen het
-                            gevoel te geven dat ik zelf ervaar als ik bij een schoonheidsspecialiste ben.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-leaf">
-                                <use xlink:href="#icon-leaf"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Een gevoel van ontspanning, een moment voor jezelf, even lekker verwend worden, kortom even
-                            onthaasten in de drukke maatschappij van deze tijd.</p>
-                    </div>
-                </div>
-
-                <div class="media">
-                    <div class="media-left">
-                        <div class="boxed-icon">
-                            <svg class="icon icon-star">
-                                <use xlink:href="#icon-star"></use>
-                            </svg>
-                        </div>
-                    </div>
-                    <div class="media-body">
-                        <p>Yvonne, Specialiste in Schoonheid. Eenvoud, rust en kracht.</p>
-                    </div>
-                </div>
+        <div class="media">
+          <div class="media-left">
+            <div class="boxed-icon">
+              <svg class="icon icon-heart">
+                <use xlink:href="#icon-heart"></use>
+              </svg>
             </div>
-            <div class="col-sm-4 col-sm-offset-1">
-                <img src="img/yvonne-bierens.jpg" alt="Yvonne Bierens, Specialiste in Schoonheid">
-            </div>
+          </div>
+          <div class="media-body">
+            <p>Ik heb gekozen voor het vak schoonheidsspecialiste omdat ik het heerlijk vind om mensen het
+              gevoel te geven dat ik zelf ervaar als ik bij een schoonheidsspecialiste ben.</p>
+          </div>
         </div>
+
+        <div class="media">
+          <div class="media-left">
+            <div class="boxed-icon">
+              <svg class="icon icon-leaf">
+                <use xlink:href="#icon-leaf"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media-body">
+            <p>Een gevoel van ontspanning, een moment voor jezelf, even lekker verwend worden, kortom even
+              onthaasten in de drukke maatschappij van deze tijd.</p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-left">
+            <div class="boxed-icon">
+              <svg class="icon icon-star">
+                <use xlink:href="#icon-star"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media-body">
+            <p>Yvonne, Specialiste in Schoonheid. Eenvoud, rust en kracht.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-sm-offset-1">
+        <img src="img/yvonne-bierens.jpg" alt="Yvonne Bierens, Specialiste in Schoonheid">
+      </div>
     </div>
+  </div>
 </div>
 
 <div id="team" class="team">
-    <h2 class="section-title">Galerij</h2>
-    <div id="team-carousel">
-        {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-        </div>
-        {% endfor %}
+  <h2 class="section-title">Galerij</h2>
+  <div id="team-carousel">
+    {% for member in site.data.team %}
+    <div class="expandable-box">
+      <div class="expandable-box-top">
+        <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+        <h4>{{ member.name }}</h4>
+      </div>
     </div>
+    {% endfor %}
+  </div>
 </div>
 
 <div id="treatments" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">Behandelingen</h2>
+  <div class="container-fluid">
+    <h2 class="section-title">Behandelingen</h2>
 
-        <div class="row">
-            {% for treatment in site.data.treatments %}
-            <div class="col-sm-6 col-md-4">
-                <div class="icon-box">
-                    <svg class="icon {{ treatment.icon }}">
-                        <use xlink:href="#{{ treatment.icon }}"></use>
-                    </svg>
-                    <h4>{{ treatment.title }}{% if treatment.price %}<br>
-                        <small>&euro; {{ treatment.price }}</small>
-                        {% endif %}
-                    </h4>
-                    <p>{{ treatment.description }}</p>
-                    {% if  treatment.list %}
-                    <ul style="list-style:none;margin:0;padding:0;">
-                        {% for treatment-item in treatment.list %}
-                        <li style="text-align: left;">{{ treatment-item }}</li>
-                        {% endfor %}
-                    <ul>
-                    {%  endif %}
-                </div>
-            </div>
+    <div class="row">
+      {% for treatment in site.data.treatments %}
+      <div class="col-sm-6 col-md-4">
+        <div class="icon-box">
+          <svg class="icon {{ treatment.icon }}">
+            <use xlink:href="#{{ treatment.icon }}"></use>
+          </svg>
+          <h4>{{ treatment.title }}{% if treatment.price %}<br>
+            <small>&euro; {{ treatment.price }}</small>
+            {% endif %}
+          </h4>
+          <p>{{ treatment.description }}</p>
+          {% if treatment.list %}
+          <ul style="list-style:none;margin:0;padding:0;">
+            {% for treatment-item in treatment.list %}
+            <li style="text-align: left;">{{ treatment-item }}</li>
             {% endfor %}
+            <ul>
+              {% endif %}
         </div>
+      </div>
+      {% endfor %}
     </div>
+  </div>
 </div>
 
 <div id="testimonials" class="testimonials parallax"
      style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
-    <div class="overlay-container">
-        <div class="overlay"></div>
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
-                <div class="testimonial-item">
-                    <svg class="icon icon-quote-left">
-                        <use xlink:href="#icon-quote-left"></use>
-                    </svg>
-                    <blockquote>
-                        <p>{{ testimonial.description }}</p>
-                        <footer>
-                            {{ testimonial.name }}
-                            <small>{{ testimonial.stars }}</small>
-                        </footer>
-                    </blockquote>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="testimonial__disclaimer">
-                <a href="{% if site.social.facebook %}{{ site.social.facebook }}{% endif %}">Gekopieerd vanuit mijn Facebook
-                    pagina.</a>
-            </div>
+  <div class="overlay-container">
+    <div class="overlay"></div>
+    <div class="container-fluid">
+      <div id="testimonial-carousel">
+        {% for testimonial in site.data.testimonials %}
+        <div class="testimonial-item">
+          <svg class="icon icon-quote-left">
+            <use xlink:href="#icon-quote-left"></use>
+          </svg>
+          <blockquote>
+            <p>{{ testimonial.description }}</p>
+            <footer>
+              {{ testimonial.name }}
+              <small>{{ testimonial.stars }}</small>
+            </footer>
+          </blockquote>
         </div>
+        {% endfor %}
+      </div>
+      <div class="testimonial__disclaimer">
+        <a href="{% if site.social.facebook %}{{ site.social.facebook }}{% endif %}">Gekopieerd vanuit mijn Facebook
+          pagina.</a>
+      </div>
     </div>
+  </div>
 </div>
 
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}"

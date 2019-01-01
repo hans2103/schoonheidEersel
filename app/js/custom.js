@@ -1,3 +1,30 @@
+function validateForm(){
+  var subject = document.getElementById('form[subject]');
+  var isValid = true;
+
+  if (subject.value.length > 0) {
+    isValid = false;
+  }
+
+  if (isValid) {
+    document.getElementById('form').submit();
+  }
+
+  if (!isValid) {
+    window.location = 'https://schoonheideersel.nl';
+  }
+}
+
+document.addEventListener('submit', function (event) {
+  if (!event.target.classList.contains("form")) return;
+
+  event.preventDefault();
+
+  validateForm();
+
+}, false);
+
+
 (function($) {
     'use strict';
 

@@ -1,3 +1,30 @@
+function validateForm(){
+  var subject = document.getElementById('form[subject]');
+  var isValid = true;
+
+  if (subject.val().length > 0) {
+    isValid = false;
+  }
+
+  if (isValid) {
+    document.getElementById('form').submit();
+  }
+
+  if (!isValid) {
+    window.location = 'https://nu.nl';
+  }
+}
+
+document.addEventListener('submit', function (event) {
+  if (!event.target.classList.contains("form")) return;
+
+  event.preventDefault();
+
+  validateForm();
+
+}, false);
+
+
 (function($) {
     'use strict';
 
