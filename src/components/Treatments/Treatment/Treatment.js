@@ -1,11 +1,11 @@
 import React from 'react';
 
 import Icon from '../../Icons/Icons';
-
+import styles from './Treatment.module.scss';
 
 const treatment = (props) => {
     return (
-        <div className="col-sm-6 col-md-4">
+        <article className={styles.Treatment}>
             <div className="icon-box">
                 <Icon name="diamond"/>
                 <h4>{props.title}</h4>
@@ -20,7 +20,7 @@ const treatment = (props) => {
                 </ul> : null}
 
             </div>
-        </div>
+        </article>
     );
 };
 

@@ -7406,19 +7406,3 @@ img.mfp-img {
 .logo_text--yvonne {
     fill: #6c635a
 }
-
-.treatments ul {
-    margin: 0;
-    padding: 0;
-    list-style: none
-}
-
-.treatments li {
-    text-align: center
-}
-
-.treatments li span {
-    font-weight: 700;
-    display: block;
-    color: #777
-}
