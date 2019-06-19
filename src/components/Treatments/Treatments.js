@@ -109,16 +109,20 @@ const elements = [
 
 const treatments = () => (
 	<section id="treatments" className={styles.TreatmentsWrapper}>
-		<h2 className={styles.SectionTitle}>Behandelingen</h2>
-		{elements.map((value, index) => (
-			<Treatment
-				key={index}
-				title={value.title}
-				price={value.price}
-				text={value.text}
-				list={value.list}
-			/>
-		))}
+		<div className="container-fluid">
+			<h2 className="section-title">Behandelingen</h2>
+			<ul className={styles.TreatmentsRow}>
+				{elements.map((value, index) => (
+					<Treatment
+						key={index}
+						title={value.title}
+						price={value.price}
+						text={value.text}
+						list={value.list}
+					/>
+				))}
+			</ul>
+		</div>
 	</section>
 );
 

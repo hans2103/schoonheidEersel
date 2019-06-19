@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Aux from '../../hoc/Aux';
-import Icon from '../Icons/Icons';
+import Aux from '../../hoc/Aux/Aux';
+import Icon from '../../hoc/Icons/Icons';
 
 const logo = (props) => (
 	<Aux>

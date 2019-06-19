@@ -1,14 +1,14 @@
 .TreatmentsWrapper {
 	background: #f7f7f7;
-	padding: 60px 0;
-
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 32px;
+	padding: 60px 16px;
 }
 
-.SectionTitle {
-	grid-column-start: 1;
-	grid-column-end: end;
-	max-width: 100vw;
+.TreatmentsRow {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: grid;
+	grid-template-columns: [full-start] repeat(auto-fill, minmax(250px, 1fr)) [full-end];
+	grid-template-rows: [full-start header-start] minmax(100px, auto) [header-end main-start] minmax(200px, auto) [main-end full-end];
+	grid-gap: 32px;
 }

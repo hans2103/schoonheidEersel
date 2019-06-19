@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Icon from '../Icons/Icons';
+import Icon from '../../hoc/Icons/Icons';
 
 const threeblocksrow = () => (
 
-    <div className="three-shade-col" role="main">
+    <section className="three-shade-col" role="main">
         <div className="col-sm-4">
             <Icon name="envelope-o" />
             <h3>Bel of mail me</h3>
@@ -31,7 +31,7 @@ const threeblocksrow = () => (
             <p>Krekelbos 14<br/>5521 SV Eersel - Nederland
             </p>
         </div>
-    </div>
+    </section>
 );
 
 export default threeblocksrow;

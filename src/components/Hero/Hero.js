@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Background from '../../assets/img/header-yvonne-bierens.jpg';
-import Icon from "../Icons/Icons";
+import Icon from "../../hoc/Icons/Icons";
 
 const Style = {
     backgroundImage: `url(${Background})`,
@@ -10,7 +10,7 @@ const Style = {
 };
 
 const hero = () => (
-    <div className="hero" style={ Style }>
+    <section className="hero" style={ Style }>
         <div className="hero-content">
             <div className="container-fluid">
                 <div className="hero-content-inner">
@@ -46,7 +46,7 @@ const hero = () => (
                 </form>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default hero;

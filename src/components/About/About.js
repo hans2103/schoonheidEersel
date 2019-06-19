@@ -4,7 +4,7 @@ import Icon from '../Icons/Icons';
 import Image from '../../assets/img/yvonne-bierens.jpg';
 
 const about = () => (
-    <div id="about" className="about">
+    <section id="about" className="about">
         <div className="container-fluid">
             <h2 className="section-title">Over mij</h2>
             <div className="row">
@@ -53,7 +53,7 @@ const about = () => (
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 );
 
 export default about;

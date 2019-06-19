@@ -2,29 +2,29 @@ import React from 'react';
 
 import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
+import styles from './Toolbar.module.scss';
+import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
 
-const toolbar = (props) => (
-	<nav className="navbar navbar-default navbar-fixed-top">
-		<div className="container-fluid">
+const toolbar = (props) => {
+	const logoClasses = [styles.Logo, 'scroll'];
 
-			<div className="navbar-header">
-				<button type="button" className="navbar-toggle collapsed" data-toggle="collapse"
-						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-					<span className="sr-only">Toggle navigation</span>
-					<span className="icon-bar"></span>
-					<span className="icon-bar"></span>
-					<span className="icon-bar"></span>
-				</button>
-				<a className="navbar-brand scroll" href="#top">
-					<Logo />
-				</a>
+	return (
+		<nav className="navbar navbar-default navbar-fixed-top">
+			<div className="container-fluid">
+
+				<div className="navbar-header">
+					<DrawerToggle clicked={props.drawerToggleClicked}/>
+					<a className={logoClasses.join(' ')} href="#top">
+						<Logo/>
+					</a>
+				</div>
+
+				<div className="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
+					<NavigationItems/>
+				</div>
 			</div>
-
-			<div className="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
-				<NavigationItems/>
-			</div>
-		</div>
-	</nav>
-);
+		</nav>
+	)
+};
 
 export default toolbar;

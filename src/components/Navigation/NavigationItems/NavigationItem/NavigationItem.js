@@ -1,11 +1,8 @@
 import React from 'react';
 
 const navigationItem = (props) => (
-	<li>
-		<a
-			className={props.active ? 'active' : null}
-			href={props.link}
-		>
+	<li className={props.active ? 'active' : null}>
+		<a href={props.link}>
 			{props.children}
 		</a>
 	</li>

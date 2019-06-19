@@ -4,8 +4,8 @@
 	max-width: 70%;
 	height: 100%;
 	top: 0;
-	left: 0;
-	z-index: 200;
+	right: 0;
+	z-index: 1100;
 	background-color: white;
 	padding: 32px 16px;
 	box-sizing: border-box;
@@ -22,5 +22,9 @@
 }
 
 .Close {
-	transform: translateX(-100%);
+	transform: translateX(100%);
+}
+
+.Logo svg {
+	max-width: 100%;
 }

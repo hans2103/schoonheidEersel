@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Icon from '../../Icons/Icons';
+import Icon from '../../../hoc/Icons/Icons';
 
 const testimonial = (props) => (
     <div key={props.index} className="testimonial-item">
