@@ -269,13 +269,13 @@ td, th {
 }
 
 html {
-    font-size: 10px;
+    font-size: 16px;
     -webkit-tap-highlight-color: transparent
 }
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857;
     color: #333;
     background-color: #fff
@@ -6187,7 +6187,7 @@ button.close {
     box-shadow: none
 }
 
-.about, .gallery, .main-footer, .gallery, .testimonials .overlay-container, .treatments {
+.about, .gallery, .main-footer, .gallery, .overlay-container, .treatments {
     padding: 60px 0
 }
 
@@ -6209,22 +6209,22 @@ button.close {
     text-align: center
 }
 
-html {
-    font-size: 85%;
-    box-sizing: border-box
-}
+/*html {*/
+/*    font-size: 85%;*/
+/*    box-sizing: border-box*/
+/*}*/
 
-@media (min-width: 768px) {
-    html {
-        font-size: 90%
-    }
-}
+/*@media (min-width: 768px) {*/
+/*    html {*/
+/*        font-size: 90%*/
+/*    }*/
+/*}*/
 
-@media (min-width: 1200px) {
-    html {
-        font-size: 100%
-    }
-}
+/*@media (min-width: 1200px) {*/
+/*    html {*/
+/*        font-size: 100%*/
+/*    }*/
+/*}*/
 
 *, :after, :before {
     box-sizing: inherit
@@ -6232,7 +6232,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: .875rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin: 0;
     color: #555
@@ -6242,10 +6242,6 @@ img {
     max-width: 100%;
     height: auto;
     vertical-align: middle
-}
-
-.map {
-    height: 450px
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -6538,78 +6534,6 @@ strong {
 
 .about .media {
     margin-bottom: 20px
-}
-
-.testimonials {
-    text-align: center;
-    color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover
-}
-
-@media (min-width: 1200px) {
-    .testimonials {
-        background-attachment: fixed
-    }
-}
-
-.testimonials .overlay-container {
-    position: relative;
-    width: 100%;
-    height: 100%
-}
-
-.testimonials .overlay-container .overlay {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(136, 125, 113, .5)
-}
-
-.testimonials .container-fluid {
-    position: relative;
-    z-index: 10
-}
-
-.testimonials blockquote {
-    font-style: italic;
-    margin: 0;
-    border: none
-}
-
-.testimonials blockquote p {
-    margin: 0 0 20px
-}
-
-.testimonials blockquote footer, .testimonials blockquote small {
-    font-style: normal;
-    color: #fff
-}
-
-.testimonials blockquote footer:before, .testimonials blockquote small:before {
-    content: ''
-}
-
-.testimonials blockquote footer {
-    font-size: 1.063rem;
-    font-weight: 600;
-    text-transform: uppercase
-}
-
-.testimonials blockquote small {
-    text-transform: none
-}
-
-.testimonials .icon {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    padding: 8px;
-    color: #fff;
-    border: solid 2px #fff
 }
 
 .gallery-item {
@@ -7399,10 +7323,10 @@ img.mfp-img {
 }
 
 .icon.icon-logo {
-    width: auto;
+    width: 230px;
     height: 70px
 }
 
 .logo_text--yvonne {
-    fill: #6c635a
+	fill: #6c635a
 }

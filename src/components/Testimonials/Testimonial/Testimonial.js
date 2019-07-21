@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from './Testimonial.module.scss';
+
 import Icon from '../../../hoc/Icons/Icons';
 
 const testimonial = (props) => (
-    <div key={props.index} className="testimonial-item">
+    <div key={props.index} className={styles.Testimonial}>
         <Icon name="quote-left" />
         <blockquote>
             <p>{props.quote}</p>

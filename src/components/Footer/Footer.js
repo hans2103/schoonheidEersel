@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Icon from '../Icons/Icons';
+import Icon from '../../hoc/Icons/Icons';
 
 const footer = () => (
     <footer className="main-footer">

@@ -1,5 +1,9 @@
 import React from 'react';
 
+import InfiniteCarousel from 'react-leaf-carousel';
+
+import styles from './Testimonials.module.scss';
+
 import Background from '../../assets/img/parallax.jpg';
 import Testimonial from './Testimonial/Testimonial';
 
@@ -31,11 +35,37 @@ const elements = [
 ];
 
 const testimonials = () => (
-    <div id="testimonials" className="testimonials parallax" style={ Style }>
-        <div className="overlay-container">
-            <div className="overlay"></div>
-            <div className="container-fluid">
+    <div id="testimonials" className={styles.Testimonials} style={ Style }>
+        <div className={styles.OverlayContainer}>
+			<div className={styles.Overlay}></div>
+            <div className={styles.OverlayContainerFluid}>
                 <div id="testimonial-carousel">
+					<InfiniteCarousel
+						breakpoints={[
+							{
+								breakpoint: 500,
+								settings: {
+									slidesToShow: 2,
+									slidesToScroll: 2,
+								},
+							},
+							{
+								breakpoint: 768,
+								settings: {
+									slidesToShow: 3,
+									slidesToScroll: 3,
+								},
+							},
+						]}
+						dots={false}
+						showSides={false}
+						sidesOpacity={.5}
+						sideSize={.1}
+						slidesSpacing={0}
+						slidesToScroll={1}
+						slidesToShow={1}
+						scrollOnDevice={true}
+					>
                     {elements.map((value, index) => (
                         <Testimonial
                             key={index}
@@ -44,6 +74,7 @@ const testimonials = () => (
                             rating={value.rating}
                             />
                     ))}
+					</InfiniteCarousel>
                 </div>
                 <div className="testimonial__disclaimer">
                     <a href="https://www.facebook.com/schoonheideersel">Gekopieerd vanuit mijn Facebook pagina.</a>
