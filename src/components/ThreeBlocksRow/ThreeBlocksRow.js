@@ -1,11 +1,14 @@
 import React from 'react';
 
 import Icon from '../../hoc/Icons/Icons';
+import styles from './ThreeBlocksRow.module.scss';
+import { WrapperGrid }  from '../Styled/Styled';
 
 const threeblocksrow = () => (
 
-    <section className="three-shade-col" role="main">
-        <div className="col-sm-4">
+    <WrapperGrid
+	>
+        <div className={styles.Item}>
             <Icon name="envelope-o" />
             <h3>Bel of mail me</h3>
             <ul>
@@ -17,7 +20,7 @@ const threeblocksrow = () => (
                 </li>
             </ul>
         </div>
-        <div className="col-sm-4">
+        <div className={styles.Item}>
             <Icon name="clock-o" />
             <h3>Openingstijden</h3>
             <p>Maandag - donderdag<br/>
@@ -25,13 +28,13 @@ const threeblocksrow = () => (
                 20:00 - 22:00<br/>
                 Buiten deze tijden in overleg.</p>
         </div>
-        <div className="col-sm-4">
+        <div className={styles.Item}>
             <Icon name="map-marker" />
             <h3>Locatie</h3>
             <p>Krekelbos 14<br/>5521 SV Eersel - Nederland
             </p>
         </div>
-    </section>
+    </WrapperGrid>
 );
 
 export default threeblocksrow;

@@ -1,0 +1,25 @@
+.Item {
+	border-right: solid 1px #948a7e;
+	position: relative;
+	padding: 0;
+	text-align: center;
+
+	&::after {
+		display: block;
+		clear: both;
+		content: ''
+	}
+
+	&:hover {
+		.GalleryItemTop {
+			transform: translate(0, -45px)
+		}
+	}
+}
+
+.ItemTop {
+	padding: 20px;
+	background: #887d71;
+	transition: transform 250ms linear;
+	transform: translate(0, 0)
+}

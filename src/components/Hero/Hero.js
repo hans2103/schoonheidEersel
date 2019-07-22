@@ -1,16 +1,14 @@
 import React from 'react';
 
-import Background from '../../assets/img/header-yvonne-bierens.jpg';
+import ImagePath from '../../assets/img/header-yvonne-bierens.jpg';
 import Icon from "../../hoc/Icons/Icons";
-
-const Style = {
-    backgroundImage: `url(${Background})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover'
-};
+import {Wrapper} from "../Styled/Styled";
 
 const hero = () => (
-    <section className="hero" style={ Style }>
+	<Wrapper id="hero"
+			 img={ImagePath}
+			 fixed={0}
+			 >
         <div className="hero-content">
             <div className="container-fluid">
                 <div className="hero-content-inner">
@@ -46,7 +44,7 @@ const hero = () => (
                 </form>
             </div>
         </div>
-    </section>
+    </Wrapper>
 );
 
 export default hero;

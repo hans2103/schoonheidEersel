@@ -1,6 +1,7 @@
 import React from 'react';
 
 import InfiniteCarousel from 'react-leaf-carousel';
+import {Wrapper, Title} from '../Styled/Styled';
 
 import gezichtsmassageImg from '../../assets/img/aan-het-werk-gezichtmassage.jpg';
 import jojobacremeImg from '../../assets/img/jojoba-care-creme.jpg';
@@ -8,6 +9,7 @@ import salonImg from '../../assets/img/salon-yvonne-bierens.jpg';
 import sfeerbeeldImg from '../../assets/img/sfeerbeeld-bloem.jpg';
 import aanhetwerkImg from '../../assets/img/aan-het-werk.jpg';
 import jojobaformenImg from '../../assets/img/jojoba-for-men.jpg';
+import GalleryItem from './GalleryItem/GalleryItem';
 
 const elements = [
 	{
@@ -43,9 +45,13 @@ const elements = [
 ];
 
 const gallery = () => (
-	<div id="gallery" className="gallery">
-		<h2 className="section-title">Galerij</h2>
+	<Wrapper id="gallery"
+			 textColor="#fff"
+			 backgroundColor="#8d8276"
+			 padding="60px 0">
+		<Title>Galerij</Title>
 		<InfiniteCarousel
+			autoCycle={1}
 			breakpoints={[
 				{
 					breakpoint: 500,
@@ -71,17 +77,15 @@ const gallery = () => (
 			slidesToShow={4}
 			scrollOnDevice={true}
 		>
-			{elements.map((value, index) => {
-				return (
-					<div key={index} className="item expandable-box">
-						<div className="expandable-box-top">
-							<img src={value.imgPath} alt={value.imgAlt}/>
-							<h4>{value.label}</h4>
-						</div>
-					</div>
-				)
-			})}
+			{elements.map((value, index) => (
+				<GalleryItem
+					key={index}
+					imgPath={value.imgPath}
+					imgAlt={value.imgAlt}
+					label={value.label}
+				/>
+			))}
 		</InfiniteCarousel>
-	</div>
+	</Wrapper>
 );
 export default gallery;

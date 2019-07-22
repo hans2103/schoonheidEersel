@@ -1,0 +1,36 @@
+.Item {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	padding: 60px 20px;
+	color: #fff;
+
+	&:nth-child(1) {
+		background: #887d71
+	}
+
+	&:nth-child(2) {
+		background: #8d8276
+	}
+
+	&:nth-child(3) {
+		background: #92877c
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none
+	}
+
+	svg {
+		font-size: 2rem;
+		color: #fff
+	}
+
+	h3 {
+		color: #fff
+	}
+}

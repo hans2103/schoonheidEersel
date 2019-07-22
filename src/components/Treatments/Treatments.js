@@ -2,6 +2,7 @@ import React from 'react';
 
 import Treatment from './Treatment/Treatment';
 import styles from './Treatments.module.scss';
+import {Wrapper, Title} from '../Styled/Styled';
 
 const elements = [
 	{
@@ -108,9 +109,10 @@ const elements = [
 ];
 
 const treatments = () => (
-	<section id="treatments" className={styles.TreatmentsWrapper}>
-		<h2 className={styles.TreatmentsTitle}>Behandelingen</h2>
-		<ul className={styles.TreatmentsRow}>
+	<Wrapper id="treatments"
+			 backgroundColor="#f7f7f7">
+		<Title>Behandelingen</Title>
+		<ul className={styles.Row}>
 			{elements.map((value, index) => (
 				<Treatment
 					key={index}
@@ -121,7 +123,7 @@ const treatments = () => (
 				/>
 			))}
 		</ul>
-	</section>
+	</Wrapper>
 );
 
 export default treatments;
