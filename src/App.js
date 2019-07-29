@@ -7,7 +7,7 @@ import './assets/css/App.css';
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
+            <div className="App">
 				<Helmet>
 					<link href="//www.googletagmanager.com" rel="dns-prefetch"/>
 					<title>Schoonheidsspecialiste Eersel | Yvonne, Specialiste in Schoonheid</title>

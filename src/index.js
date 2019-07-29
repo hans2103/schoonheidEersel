@@ -3,16 +3,18 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import WebFont from 'webfontloader';
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module';
+
+require('default-passive-events');
 
 WebFont.load({
-	google: {
-		families: ['Nunito:400,700', 'Open+Sans:500', 'sans-serif']
-	}
+    google: {
+        families: ['Nunito:400,700', 'Open+Sans:500', 'sans-serif']
+    }
 });
 
 const tagManagerArgs = {
-	gtmId: 'GTM-M9DK3T'
+    gtmId: 'GTM-M9DK3T'
 };
 
 TagManager.initialize(tagManagerArgs);
@@ -23,6 +25,3 @@ ReactDOM.render(<App/>, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-
-
