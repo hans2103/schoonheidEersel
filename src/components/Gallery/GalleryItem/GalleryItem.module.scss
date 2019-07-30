@@ -3,6 +3,7 @@
 	position: relative;
 	padding: 0;
 	text-align: center;
+	touch-action: none;
 
 	&::after {
 		display: block;

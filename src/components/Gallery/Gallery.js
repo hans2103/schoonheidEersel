@@ -12,80 +12,77 @@ import jojobaformenImg from '../../assets/img/jojoba-for-men.jpg';
 import GalleryItem from './GalleryItem/GalleryItem';
 
 const elements = [
-	{
-		label: 'Gezichtsmassage',
-		imgPath: gezichtsmassageImg,
-		imgAlt: 'Gezichtsmassage'
-	},
-	{
-		label: 'Jojoba Care crème',
-		imgPath: jojobacremeImg,
-		imgAlt: 'Jojoba Care crème'
-	},
-	{
-		label: 'Salon',
-		imgPath: salonImg,
-		imgAlt: 'Salon'
-	},
-	{
-		label: 'Rust',
-		imgPath: sfeerbeeldImg,
-		imgAlt: 'Rust'
-	},
-	{
-		label: 'Aan het werk',
-		imgPath: aanhetwerkImg,
-		imgAlt: 'Aan het werk'
-	},
-	{
-		label: 'Jojoba Care for men',
-		imgPath: jojobaformenImg,
-		imgAlt: 'Jojoba Care for men'
-	},
+    {
+        label: 'Gezichtsmassage',
+        imgPath: gezichtsmassageImg,
+        imgAlt: 'Gezichtsmassage'
+    },
+    {
+        label: 'Jojoba Care crème',
+        imgPath: jojobacremeImg,
+        imgAlt: 'Jojoba Care crème'
+    },
+    {
+        label: 'Salon',
+        imgPath: salonImg,
+        imgAlt: 'Salon'
+    },
+    {
+        label: 'Rust',
+        imgPath: sfeerbeeldImg,
+        imgAlt: 'Rust'
+    },
+    {
+        label: 'Aan het werk',
+        imgPath: aanhetwerkImg,
+        imgAlt: 'Aan het werk'
+    },
+    {
+        label: 'Jojoba Care for men',
+        imgPath: jojobaformenImg,
+        imgAlt: 'Jojoba Care for men'
+    },
 ];
 
 const gallery = () => (
-	<Wrapper id="gallery"
-			 textColor="#fff"
-			 backgroundColor="#8d8276"
-			 padding="60px 0">
-		<Title>Galerij</Title>
-		<InfiniteCarousel
-			autoCycle={1}
-			breakpoints={[
-				{
-					breakpoint: 500,
-					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 2,
-					},
-				},
-				{
-					breakpoint: 768,
-					settings: {
-						slidesToShow: 3,
-						slidesToScroll: 3,
-					},
-				},
-			]}
-			dots={false}
-			showSides={false}
-			sidesOpacity={.5}
-			sideSize={.1}
-			slidesSpacing={0}
-			slidesToScroll={4}
-			slidesToShow={4}
-			scrollOnDevice={true}
-		>
-			{elements.map((value, index) => (
-				<GalleryItem
-					key={index}
-					imgPath={value.imgPath}
-					imgAlt={value.imgAlt}
-					label={value.label}
-				/>
-			))}
-		</InfiniteCarousel>
-	</Wrapper>
+    <Wrapper id="gallery" textColor="#fff" backgroundColor="#8d8276" padding="60px 0">
+        <Title>Galerij</Title>
+        <InfiniteCarousel
+            autoCycle={true}
+            breakpoints={[
+                {
+                    breakpoint: 500,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                    },
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                    },
+                },
+            ]}
+            dots={false}
+            showSides={false}
+            sidesOpacity={.5}
+            sideSize={.1}
+            slidesSpacing={0}
+            slidesToScroll={4}
+            slidesToShow={4}
+            scrollOnDevice={true}
+        >
+            {elements.map((value, index) => (
+                <GalleryItem
+                    key={index}
+                    imgPath={value.imgPath}
+                    imgAlt={value.imgAlt}
+                    label={value.label}
+                />
+            ))}
+        </InfiniteCarousel>
+    </Wrapper>
 );
 export default gallery;
