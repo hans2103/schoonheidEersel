@@ -3798,7 +3798,8 @@ tbody.collapse.in {
     color: #777
 }
 
-.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
     color: #5e5e5e;
     background-color: transparent
 }
@@ -6303,7 +6304,7 @@ strong {
     color: #555
 }
 
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a.active {
     color: #fff;
     background: #8d8276
 }
@@ -6395,7 +6396,8 @@ strong {
 
 .form {
     padding: 40px 20px;
-    background: #f7f7f7
+    background: #f7f7f7;
+	box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -6415,6 +6417,16 @@ strong {
 
 .form .form-field {
     margin-bottom: 10px
+}
+
+.form .form-field label {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	white-space: nowrap; /* added line */
 }
 
 .form-field--subject {
@@ -6984,4 +6996,13 @@ img.mfp-img {
 
 .logo_text--yvonne {
 	fill: #6c635a
+}
+
+.form-error {font-size: .9rem;
+	color: #bf1650;
+}
+
+.form-error::before {
+	display: inline;
+	content: "⚠ ";
 }

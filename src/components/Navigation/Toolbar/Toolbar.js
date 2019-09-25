@@ -4,6 +4,7 @@ import Logo from '../../Logo/Logo';
 import NavigationItems from '../NavigationItems/NavigationItems';
 import styles from './Toolbar.module.scss';
 import DrawerToggle from '../SideDrawer/DrawerToggle/DrawerToggle';
+import { Link } from "react-scroll";
 
 const toolbar = (props) => {
 	const logoClasses = [styles.Logo, 'scroll'];
@@ -14,9 +15,18 @@ const toolbar = (props) => {
 
 				<div className="navbar-header">
 					<DrawerToggle clicked={props.drawerToggleClicked}/>
-					<a className={logoClasses.join(' ')} href="#top">
+					<Link
+						activeClass="active"
+						to="top"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration= {500}
+						className={logoClasses.join(' ')}
+						aria-label="Logo van Schoonheid Eersel"
+					>
 						<Logo/>
-					</a>
+					</Link>
 				</div>
 
 				<div className="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
