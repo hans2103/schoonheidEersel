@@ -3,14 +3,17 @@ import useForm from 'react-hook-form';
 import ErrorMessage from './ErrorMessage';
 
 function Form() {
-	const {register, handleSubmit, errors} = useForm();
-	const onSubmit = (data) => {
-		console.log(data);
-	};
+	const {register, errors} = useForm();
+	//const {register, handleSubmit, errors} = useForm();
+	// const onSubmit = (data) => {
+	// 	console.log(data);
+	// };
 
 	return (
 		<form
-			onSubmit={handleSubmit(onSubmit)}
+			action="POST"
+			data-netflify="true"
+			//onSubmit={handleSubmit(onSubmit)}
 			className="form"
 		>
 			<div className="form-field">
