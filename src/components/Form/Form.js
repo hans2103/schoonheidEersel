@@ -7,10 +7,6 @@ function ContactForm() {
 	const onSubmit = e => {
 		fetch('/', {
 			method: 'POST',
-			netlify: true,
-			dataNetlify: true,
-			netlifyHoneypot: "bot-field",
-			name: "contact-form",
 			body: e,
 		})
 			.then(() => alert('Success!'))
@@ -21,6 +17,10 @@ function ContactForm() {
 	return (
 		<form
 			onSubmit={handleSubmit(onSubmit)}
+			name="Contact Form"
+			netlify="true"
+			netlify-honeypot="bot-field"
+			data-netlify="true"
 		>
 			<input type="hidden" name="bot-field"/>
 			<div className="form-field">
