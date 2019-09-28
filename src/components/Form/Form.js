@@ -21,6 +21,7 @@ function ContactForm() {
 			netlify="true"
 			netlify-honeypot="bot-field"
 			data-netlify="true"
+			action="/"
 		>
 			<input type="hidden" name="bot-field"/>
 			<div className="form-field">
