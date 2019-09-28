@@ -2,20 +2,26 @@ import React from 'react';
 import useForm from 'react-hook-form';
 import ErrorMessage from './ErrorMessage';
 
-function Form() {
-	const {register, errors} = useForm();
-	//const {register, handleSubmit, errors} = useForm();
-	// const onSubmit = (data) => {
-	// 	console.log(data);
-	// };
-
+function ContactForm() {
+	const {register, handleSubmit, errors} = useForm();
+	const onSubmit = data => {
+		fetch('/thanks', {
+			method: 'POST',
+			body: data,
+		})
+			.then(data => console.log(data))
+			.catch(error => alert(error));
+	};
 	return (
 		<form
-			action="POST"
-			data-netflify="true"
-			//onSubmit={handleSubmit(onSubmit)}
-			className="form"
+			onSubmit={handleSubmit(onSubmit)}
+			name="Contact Form"
+			method="POST"
+			netlify-honeypot="bot-field"
+			data-netlify="true"
+			action="/thanks"
 		>
+			<input type="hidden" name="bot-field"/>
 			<div className="form-field">
 				<label
 					htmlFor="name"
@@ -25,19 +31,18 @@ function Form() {
 				</label>
 				<input
 					type="text"
-					placeholder="Naam"
 					name="name"
-					ref={register({required: true, minLength: 2})}
+					placeholder="Naam"
+					ref={register({required: true})}
 				/>
-				<ErrorMessage error={errors.name} />
+				<ErrorMessage error={errors.name}/>
 			</div>
-
 			<div className="form-field">
 				<label
-					htmlFor="name"
+					htmlFor="phone"
 					className="sr-only"
 				>
-					Naam
+					Telefoon
 				</label>
 				<input
 					type="tel"
@@ -45,40 +50,37 @@ function Form() {
 					name="phone"
 					ref={register({required: true, minLength: 2, maxLength: 12})}
 				/>
-				<ErrorMessage error={errors.phone} />
+				<ErrorMessage error={errors.phone}/>
 			</div>
-
 			<div className="form-field">
 				<label
-					htmlFor="name"
+					htmlFor="mail"
 					className="sr-only"
 				>
-					Naam
+					E-mail
 				</label>
 				<input
-					type="text"
+					type="email"
 					placeholder="E-mail"
-					name="email"
+					name="mail"
 					ref={register({required: true, minLength: 2, pattern: /^\S+@\S+$/i})}
 				/>
-				<ErrorMessage error={errors.email} />
+				<ErrorMessage error={errors.mail}/>
 			</div>
-
 			<div className="form-field">
 				<label
-					htmlFor="name"
+					htmlFor="message"
 					className="sr-only"
 				>
-					Naam
+					Bericht
 				</label>
 				<textarea
 					placeholder="Bericht"
 					name="message"
 					ref={register({required: true, minLength: 2})}
 				/>
-				<ErrorMessage error={errors.message} />
+				<ErrorMessage error={errors.message}/>
 			</div>
-
 			<button
 				type="submit"
 				className="btn btn-default form-submit"
@@ -89,4 +91,4 @@ function Form() {
 	);
 }
 
-export default Form;
+export default ContactForm;
