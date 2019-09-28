@@ -12,7 +12,7 @@ function ContactForm() {
 			.then(() => alert('Success!'))
 			.catch(error => alert(error));
 
-		e.preventDefault();
+		data.preventDefault();
 	};
 	return (
 		<form
