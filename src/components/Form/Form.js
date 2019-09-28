@@ -4,15 +4,15 @@ import ErrorMessage from './ErrorMessage';
 
 function ContactForm() {
 	const {register, handleSubmit, errors} = useForm();
-	const onSubmit = data => {
+	const onSubmit = e => {
 		fetch('/', {
 			method: 'POST',
-			body: data,
+			body: e,
 		})
 			.then(() => alert('Success!'))
 			.catch(error => alert(error));
 
-		data.preventDefault();
+		e.preventDefault();
 	};
 	return (
 		<form
