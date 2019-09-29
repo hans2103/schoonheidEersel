@@ -14,8 +14,6 @@ class ContactForm extends React.Component {
 		this.state = {name: '', phone: '', email: '', message: ''};
 	}
 
-	/* Here’s the juicy bit for posting the form submission */
-
 	handleSubmit = e => {
 		fetch('/', {
 			method: 'POST',
