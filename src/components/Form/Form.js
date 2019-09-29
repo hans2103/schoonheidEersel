@@ -1,6 +1,4 @@
 import React from 'react';
-//import useForm from 'react-hook-form';
-//import ErrorMessage from './ErrorMessage';
 
 const encode = (data) => {
 	return Object.keys(data)

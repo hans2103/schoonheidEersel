@@ -1,8 +1,8 @@
 [build]
-  command = "npm build"
-  publish = "build"
+  command = "react-scripts build"
+  publish = "build/"
 
 [dev]
   port = 3000
-  command = "npm start"
-  publish = "src"
+  command = "react-scripts start"
+  publish = "src/"
