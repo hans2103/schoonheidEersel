@@ -13,12 +13,12 @@ class ContactForm extends React.Component {
 	}
 
 	handleSubmit = e => {
-		fetch('/', {
+		fetch('', {
 			method: 'POST',
 			headers: {'Content-Type': 'application/x-www-form-urlencoded'},
 			body: encode({'form-name': 'contact', ...this.state})
 		})
-			.then(() => alert('Success!'))
+			.then(() => alert('Het bericht is verzonden!'))
 			.catch(error => alert(error));
 
 		e.preventDefault();
@@ -94,7 +94,6 @@ class ContactForm extends React.Component {
 						required
 					/>
 				</div>
-				<div data-netlify-recaptcha="true"></div>
 				<button
 					type="submit"
 					className="btn btn-default form-submit"
