@@ -90,6 +90,7 @@ class ContactForm extends React.Component {
 						onChange={this.handleChange}
 					/>
 				</div>
+				<div data-netlify-recaptcha="true"></div>
 				<button
 					type="submit"
 					className="btn btn-default form-submit"
