@@ -44,6 +44,7 @@ class ContactForm extends React.Component {
 						placeholder="Naam"
 						value={name}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 				<div className="form-field">
@@ -59,6 +60,7 @@ class ContactForm extends React.Component {
 						placeholder="Telefoonnummer"
 						value={phone}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 				<div className="form-field">
@@ -74,6 +76,7 @@ class ContactForm extends React.Component {
 						name="email"
 						value={email}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 				<div className="form-field">
@@ -88,6 +91,7 @@ class ContactForm extends React.Component {
 						name="message"
 						value={message}
 						onChange={this.handleChange}
+						required
 					/>
 				</div>
 				<div data-netlify-recaptcha="true"></div>
