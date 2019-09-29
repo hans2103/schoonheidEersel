@@ -18,7 +18,10 @@ class ContactForm extends React.Component {
 			headers: {'Content-Type': 'application/x-www-form-urlencoded'},
 			body: encode({'form-name': 'contact', ...this.state})
 		})
-			.then(() => alert('Het bericht is verzonden!'))
+			.then(() => {
+				this.setState({name: '', phone: '', email: '', message: ''});
+				alert('Het formulier is verzonden!');
+			})
 			.catch(error => alert(error));
 
 		e.preventDefault();
@@ -30,6 +33,7 @@ class ContactForm extends React.Component {
 		const {name, phone, email, message} = this.state;
 		return (
 			<form
+				id="contactform"
 				onSubmit={this.handleSubmit}>
 				<input type="hidden" name="form-name" value="contact" />
 				<div className="form-field">
