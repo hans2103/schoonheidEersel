@@ -1,29 +1,28 @@
 import React from 'react';
-import useForm from 'react-hook-form';
-import ErrorMessage from './ErrorMessage';
+//import useForm from 'react-hook-form';
+//import ErrorMessage from './ErrorMessage';
 
 function ContactForm() {
-	const {register, handleSubmit, errors} = useForm();
-	const onSubmit = e => {
-		fetch('/', {
-			method: 'POST',
-			body: e,
-		})
-			.then(() => alert('Success!'))
-			.catch(error => alert(error));
-
-		e.preventDefault();
-	};
+	// const {register, handleSubmit, errors} = useForm();
+	// const onSubmit = e => {
+	// 	fetch('/', {
+	// 		method: 'POST',
+	// 		body: e,
+	// 	})
+	// 		.then(() => alert('Success!'))
+	// 		.catch(error => alert(error));
+	//
+	// 	e.preventDefault();
+	// };
 	return (
 		<form
-			onSubmit={handleSubmit(onSubmit)}
-			name="Contact Form"
-			netlify="true"
-			netlify-honeypot="bot-field"
+			name="contact"
+			//netlify-honeypot="bot-field"
+			method="POST"
 			data-netlify="true"
 			action="/"
 		>
-			<input type="hidden" name="bot-field"/>
+
 			<div className="form-field">
 				<label
 					htmlFor="name"
@@ -35,9 +34,7 @@ function ContactForm() {
 					type="text"
 					name="name"
 					placeholder="Naam"
-					ref={register({required: true})}
 				/>
-				<ErrorMessage error={errors.name}/>
 			</div>
 			<div className="form-field">
 				<label
@@ -50,9 +47,7 @@ function ContactForm() {
 					type="tel"
 					placeholder="Telefoonnummer"
 					name="phone"
-					ref={register({required: true, minLength: 2, maxLength: 12})}
 				/>
-				<ErrorMessage error={errors.phone}/>
 			</div>
 			<div className="form-field">
 				<label
@@ -65,9 +60,7 @@ function ContactForm() {
 					type="email"
 					placeholder="E-mail"
 					name="mail"
-					ref={register({required: true, minLength: 2, pattern: /^\S+@\S+$/i})}
 				/>
-				<ErrorMessage error={errors.mail}/>
 			</div>
 			<div className="form-field">
 				<label
@@ -79,9 +72,7 @@ function ContactForm() {
 				<textarea
 					placeholder="Bericht"
 					name="message"
-					ref={register({required: true, minLength: 2})}
 				/>
-				<ErrorMessage error={errors.message}/>
 			</div>
 			<button
 				type="submit"
