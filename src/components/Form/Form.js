@@ -2,86 +2,111 @@ import React from 'react';
 //import useForm from 'react-hook-form';
 //import ErrorMessage from './ErrorMessage';
 
-function ContactForm() {
-	// const {register, handleSubmit, errors} = useForm();
-	// const onSubmit = e => {
-	// 	fetch('/', {
-	// 		method: 'POST',
-	// 		body: e,
-	// 	})
-	// 		.then(() => alert('Success!'))
-	// 		.catch(error => alert(error));
-	//
-	// 	e.preventDefault();
-	// };
-	return (
-		<form
-			name="contact"
-			//netlify-honeypot="bot-field"
-			method="POST"
-			data-netlify="true"
-			action="/"
-		>
+const encode = (data) => {
+	return Object.keys(data)
+		.map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+		.join('&');
+};
 
-			<div className="form-field">
-				<label
-					htmlFor="name"
-					className="sr-only"
+class ContactForm extends React.Component {
+	constructor(props) {
+		super(props);
+		this.state = {name: '', phone: '', email: '', message: ''};
+	}
+
+	/* Here’s the juicy bit for posting the form submission */
+
+	handleSubmit = e => {
+		fetch('/', {
+			method: 'POST',
+			headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+			body: encode({'form-name': 'contact', ...this.state})
+		})
+			.then(() => alert('Success!'))
+			.catch(error => alert(error));
+
+		e.preventDefault();
+	};
+
+	handleChange = e => this.setState({[e.target.name]: e.target.value});
+
+	render() {
+		const {name, phone, email, message} = this.state;
+		return (
+			<form
+				name="contact"
+				method="post"
+				data-netlify="true"
+				data-netlify-honeypot="bot-field"
+				onSubmit={this.handleSubmit}>
+				<input type="hidden" name="form-name" value="contact" />
+				<div className="form-field">
+					<label
+						htmlFor="name"
+						className="sr-only"
+					>
+					</label>
+					<input
+						type="text"
+						name="name"
+						placeholder="Naam"
+						value={name}
+						onChange={this.handleChange}
+					/>
+				</div>
+				<div className="form-field">
+					<label
+						htmlFor="phone"
+						className="sr-only"
+					>
+						Telefoon
+					</label>
+					<input
+						type="tel"
+						name="phone"
+						placeholder="Telefoonnummer"
+						value={phone}
+						onChange={this.handleChange}
+					/>
+				</div>
+				<div className="form-field">
+					<label
+						htmlFor="email"
+						className="sr-only"
+					>
+						E-mail
+					</label>
+					<input
+						type="email"
+						placeholder="E-mail"
+						name="email"
+						value={email}
+						onChange={this.handleChange}
+					/>
+				</div>
+				<div className="form-field">
+					<label
+						htmlFor="message"
+						className="sr-only"
+					>
+						Bericht
+					</label>
+					<textarea
+						placeholder="Bericht"
+						name="message"
+						value={message}
+						onChange={this.handleChange}
+					/>
+				</div>
+				<button
+					type="submit"
+					className="btn btn-default form-submit"
 				>
-					Naam
-				</label>
-				<input
-					type="text"
-					name="name"
-					placeholder="Naam"
-				/>
-			</div>
-			<div className="form-field">
-				<label
-					htmlFor="phone"
-					className="sr-only"
-				>
-					Telefoon
-				</label>
-				<input
-					type="tel"
-					placeholder="Telefoonnummer"
-					name="phone"
-				/>
-			</div>
-			<div className="form-field">
-				<label
-					htmlFor="mail"
-					className="sr-only"
-				>
-					E-mail
-				</label>
-				<input
-					type="email"
-					placeholder="E-mail"
-					name="mail"
-				/>
-			</div>
-			<div className="form-field">
-				<label
-					htmlFor="message"
-					className="sr-only"
-				>
-					Bericht
-				</label>
-				<textarea
-					placeholder="Bericht"
-					name="message"
-				/>
-			</div>
-			<button
-				type="submit"
-				className="btn btn-default form-submit"
-			>
-				Verzenden
-			</button>
-		</form>
-	);
+					Verzenden
+				</button>
+			</form>
+		);
+	}
 }
 
 export default ContactForm;
