@@ -10,6 +10,7 @@ const hero = () => {
 	<Wrapper id="hero"
 			 img={ImagePath}
 			 fixed={0}
+			 padding="60px 16px 0"
 			 >
         <div className="hero-content">
             <div className="container-fluid">
