@@ -29,7 +29,7 @@ const threeblocksrow = () => (
         <div className={styles.Item}>
             <Icon name="map-marker" />
             <h3>Locatie</h3>
-			<p><a href="https://www.google.com/maps/dir//Yvonne,+Specialiste+in+Schoonheid,+Krekelbos+14,+5521+SV+Eersel/@51.3515744,5.2686798,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47c6ce2c9747c8bd:0xaff07e2002e8c04!2m2!1d5.303699!2d51.351526!3e0" target="_blank" className="anchorWhite">Krekelbos 14<br/>5521 SV Eersel - Nederland</a>
+			<p><a href="https://www.google.com/maps/dir//Yvonne,+Specialiste+in+Schoonheid,+Krekelbos+14,+5521+SV+Eersel/@51.3515744,5.2686798,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47c6ce2c9747c8bd:0xaff07e2002e8c04!2m2!1d5.303699!2d51.351526!3e0" target="_blank" className="anchorWhite" rel="noopener noreferrer">Krekelbos 14<br/>5521 SV Eersel - Nederland</a>
             </p>
         </div>
     </WrapperGrid>
