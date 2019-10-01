@@ -12,6 +12,7 @@ import Treatments from '../../components/Treatments/Treatments';
 import Testimonials from '../../components/Testimonials/Testimonials';
 import GoogleMap from '../../components/GoogleMap/GoogleMap';
 import Footer from '../../components/Footer/Footer';
+import Json from '../../components/Json/Json';
 
 class Layout extends Component {
 	state = {
@@ -45,6 +46,7 @@ class Layout extends Component {
 				<Testimonials/>
 				<GoogleMap/>
 				<Footer/>
+				<Json/>
 			</Aux>
 		)
 	}
