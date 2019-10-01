@@ -7006,3 +7006,13 @@ img.mfp-img {
 	display: inline;
 	content: "⚠ ";
 }
+
+
+.anchorWhite {
+	color: white;
+}
+
+.anchorWhite:hover,
+.anchorWhite:focus {
+	color: currentColor;
+}
