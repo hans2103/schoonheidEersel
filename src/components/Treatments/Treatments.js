@@ -67,7 +67,7 @@ const elements = [
 			},
 			{
 				label: 'Oksels harsen',
-				price: '€ 1500'
+				price: '€ 15,00'
 			},
 			{
 				label: 'Onderbenen of bovenbenen harsen',
