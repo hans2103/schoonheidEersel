@@ -1,0 +1,41 @@
+.Treatment {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+
+	padding: 20px;
+	text-align: center;
+	background: #fff;
+
+	svg {
+		font-size: 1.5rem;
+		color: #887d71;
+	}
+
+	h4 {
+		small {
+			display: block;
+			margin-top: 4px;
+			font-weight: 700;
+			color: #777;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		text-align: center;
+
+		span {
+			display: block;
+			font-weight: 700;
+			color: #777
+		}
+	}
+}

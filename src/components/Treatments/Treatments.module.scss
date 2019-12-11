@@ -1,0 +1,14 @@
+
+
+.Row {
+	max-width: 1100px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	list-style: none;
+	display: grid;
+	grid-template-columns: [full-start] repeat(auto-fill, minmax(252px, 1fr)) [full-end];
+	grid-template-rows: [full-start header-start] minmax(100px, auto) [header-end main-start] minmax(200px, auto) [main-end full-end];
+	grid-gap: 32px;
+}
