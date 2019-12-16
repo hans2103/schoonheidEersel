@@ -50,7 +50,7 @@ const elements = [
 			},
 			{
 				label: 'Wenkbrauwen epileren & bovenlip harsen',
-				price: '€ 13,00'
+				price: '€ 13,50'
 			},
 			{
 				label: 'Wenkbrauwen epileren & bovenlip harsen junior (< 18 jr.)',
