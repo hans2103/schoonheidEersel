@@ -12,15 +12,15 @@ const elements = [
 		list: null
 	},
 	{
-		title: 'Huidverzorgende gezichtsbehandeling, 60 minuten',
-		price: '34,95',
-		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.',
+		title: 'Huidverbeterende behandeling met lichttherapie (bioptron), 90 minuten',
+		price: '49,95',
+		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème en lichttherapie',
 		list: null
 	},
 	{
-		title: 'Wimperlifting',
-		price: '39,95',
-		text: 'Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €34,95',
+		title: 'Huidverzorgende gezichtsbehandeling, 60 minuten',
+		price: '34,95',
+		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.',
 		list: null
 	},
 	{
@@ -30,10 +30,25 @@ const elements = [
 		list: null
 	},
 	{
-		title: 'Huidverbeterende behandeling met lichttherapie (bioptron), 90 minuten',
-		price: '49,95',
-		text: '',
+		title: 'Wimperlifting',
+		price: '39,95',
+		text: 'Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €34,95',
 		list: null
+	},
+	{
+		title: 'Lichttherapie',
+		price: null,
+		text: null,
+		list: [
+			{
+				label: '10 minuten',
+				price: '€ 12,50'
+			},
+			{
+				label: 'Strippenkaart 100 minuten',
+				price: '€ 100,00'
+			}
+		]
 	},
 	{
 		title: 'Epileren',
