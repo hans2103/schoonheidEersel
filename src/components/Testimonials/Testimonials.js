@@ -10,8 +10,8 @@ import Testimonial from './Testimonial/Testimonial';
 
 const elements = [
 	{
-		text: 'Naast gezichtsbehandeling is ze tegenwoordig ook een barbier. Mijn gezicht is weer lekker glad geschoren.',
-		author: 'Hans Kuijpers',
+		text: 'Ik was laatst bij jou geweest voor een behandeling en mijn vriendin zag het gewoon!',
+		author: 'een anonieme klant',
 		rating: '5 sterren'
 	},
 	{

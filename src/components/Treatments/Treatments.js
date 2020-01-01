@@ -7,27 +7,48 @@ import {Wrapper, Title} from '../Styled/Styled';
 const elements = [
 	{
 		title: 'Huidverzorgende gezichtsbehandeling, 90 minuten',
-		price: '39,95',
+		price: '41,95',
 		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème.',
 		list: null
 	},
 	{
+		title: 'Huidverbeterende behandeling met lichttherapie (bioptron), 90 minuten',
+		price: '49,95',
+		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, gezichtsmassage, masker, dag- of nachtcrème en lichttherapie',
+		list: null
+	},
+	{
 		title: 'Huidverzorgende gezichtsbehandeling, 60 minuten',
-		price: '33,95',
+		price: '34,95',
 		text: 'Huidverzorgende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen, tonic, dag- of nachtcrème.',
 		list: null
 	},
 	{
-		title: 'Kruidenpeeling, huidverbeterende behandeling, 90 minuten',
-		price: '49,95',
-		text: 'Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterendekruidenpeeling, masker en een dag of nachtcrème. Deze kruidenpeeling is een goed alternatief voor de biopeeling.',
+		title: 'Huidverbeterende behandeling met kruidenpeeling, 90 minuten',
+		price: '51,95',
+		text: 'Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker en een dag of nachtcrème. Deze kruidenpeeling is een goed alternatief voor de biopeeling.',
 		list: null
 	},
 	{
 		title: 'Wimperlifting',
-		price: '35,00',
-		text: 'Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €30,00',
+		price: '39,95',
+		text: 'Volle, gelifte wimpers gedurende 6-9 weken. Gecombineerd met een gezichtsbehandeling is de prijs van wimperlifting €34,95',
 		list: null
+	},
+	{
+		title: 'Lichttherapie',
+		price: null,
+		text: null,
+		list: [
+			{
+				label: '10 minuten',
+				price: '€ 12,50'
+			},
+			{
+				label: 'Strippenkaart 100 minuten',
+				price: '€ 100,00'
+			}
+		]
 	},
 	{
 		title: 'Epileren',
@@ -44,7 +65,7 @@ const elements = [
 			},
 			{
 				label: 'Wenkbrauwen epileren & bovenlip harsen',
-				price: '€ 13,00'
+				price: '€ 13,50'
 			},
 			{
 				label: 'Wenkbrauwen epileren & bovenlip harsen junior (< 18 jr.)',
@@ -93,11 +114,15 @@ const elements = [
 				price: '€ 8,50 (€ 5,00 *)'
 			},
 			{
-				label: 'Wenkbrauwen verven en epileren &amp; wimpers verven',
-				price: '€ 20,00'
+				label: 'Wenkbrauwen verven en epileren',
+				price: '€ 13,50'
 			},
 			{
-				label: 'Wenkbrauwen verven en epileren, wimpers verven &; bovenlip',
+				label: 'Wenkbrauwen verven en epileren & wimpers verven',
+				price: '€ 21,50'
+			},
+			{
+				label: 'Wenkbrauwen verven en epileren, wimpers verven & bovenlip',
 				price: '€ 28,50'
 			},
 			{
