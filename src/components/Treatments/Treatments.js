@@ -25,7 +25,7 @@ const elements = [
 	},
 	{
 		title: 'Huidverbeterende behandeling met kruidenpeeling, 90 minuten',
-		price: '51,95',
+		price: '54,95',
 		text: 'Huidverbeterende behandeling. Huidanalyse, oppervlakte reiniging, wenkbrauwen epileren en/of bovenlip harsen, dieptereiniging, onzuiverheden verwijderen huidverbeterende kruidenpeeling, masker en een dag of nachtcrème. Deze kruidenpeeling is een goed alternatief voor de biopeeling.',
 		list: null
 	},
