@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/289c6e3f-8b92-47ac-9a9b-64faa24af798/deploy-status)](https://app.netlify.com/sites/schoonheideersel/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
